@@ -129,6 +129,21 @@ caption {
 }
 
 
+.playoff-table > *{
+ margin: 30px;
+}
+
+.playoff-table table {
+  width: 500px;
+  table-layout: fixed; /* Sloupce budou mít stejnou šířku */
+}
+
+.playoff-table table td:nth-child(2) {
+  width: 20px !important; /* Šířka druhého sloupce */
+  text-align: center;
+}
+
+
 @media screen and (max-width: 640px) {
 
   .content{
@@ -141,6 +156,14 @@ caption {
 
   .table-container{
     overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
+    width: 90%;
+  }
+
+  .playoff-table{
+    overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
+    width: 100%;
+  }
+  .playoff-table table {
     width: 100%;
   }
 
