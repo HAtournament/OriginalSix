@@ -80,8 +80,8 @@ caption {
 
 .pacific tr:nth-child(5), 
 .pacific tr:nth-child(6),
-.central tr:nth-child(5), 
-.central tr:nth-child(6) {
+.metropolitan tr:nth-child(5), 
+.metropolitan tr:nth-child(6) {
   /* Styl pro buňky v prvních třech řádcích */
   background-color: #f0baba; /* Změňte na požadovanou barvu */
 }
