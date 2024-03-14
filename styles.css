@@ -43,7 +43,7 @@ caption {
 }
 
 .content > * {
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 
@@ -121,10 +121,6 @@ caption {
   .table-container{
     overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
     width: 100%;
-  }
-
-  .division-table{
-
   }
 
 }
