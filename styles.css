@@ -144,6 +144,32 @@ caption {
 }
 
 
+/* Styly pro tabulku */
+#teams-table-body {
+  border-collapse: collapse;
+}
+
+#teams-table-body th,
+#teams-table-body td {
+  border: 1px solid #ddd;
+  padding: 04px 10px 4px 0px;
+  text-align: left;
+}
+
+/* Styly pro sloupec s obrázky */
+#teams-table-body th:nth-child(1),
+#teams-table-body td:nth-child(1) {
+  width: auto; /* Nastaví šířku prvního sloupce na 100px */
+}
+
+#teams-table-body th:nth-child(2),
+#teams-table-body td:nth-child(2) {
+  width: 200px; /* Nastaví šířku druhého sloupce na 200px */
+}
+
+
+
+
 @media screen and (max-width: 640px) {
 
   .content{
@@ -168,3 +194,4 @@ caption {
   }
 
 }
+
