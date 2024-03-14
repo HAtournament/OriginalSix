@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+  
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 16px 8px 16px;
+  text-align: left;
+}
+  
+th {
+  background-color: #f2f2f2;
+}
+  
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+  
+tr:hover {
+  background-color: #ddd;
+}
+  
+caption {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content{
+  width: 50%; /* Šířka divu */
+  margin: 0 auto; /* Vycentrování divu horizontálně */
+  display: flex;
+  flex-direction: column; /* Uspořádat elementy ve sloupci */
+  align-items: center; /* Vycentrovat elementy ve vertikálním směru */
+}
+
+.content > * {
+  margin-bottom: 30px;
+}
+
+
+.division-table{
+  width: 700px;
+}
+
+.division-table th{
+  text-align: center;
+}
+
+.division-table th:nth-child(2) {
+  text-align: left;
+}
+
+.division-table td{
+  text-align: center;
+}
+
+.division-table td:first-child {
+  text-align: center;
+}
+
+.division-table td:nth-child(2) {
+  text-align: left;
+}
+
+.division-table td:last-child {
+  text-align: right;
+}
+
+.navbar {
+  display: flex;
+}
+
+.button-wrapper {
+  display: inline-block; /* Zabraňuje šíření divu na celou šířku */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px; /* Odsazení tlačítka */
+  margin: 10px; /* Umožňuje mezi tlačítky určitý odstup */
+  background-color: #344479; /* Barva pozadí tlačítka */
+  color: white; /* Barva textu */
+  text-decoration: none; /* Zrušení podtržení textu */
+  border: none; /* Odstranění rámečku */
+  border-radius: 4px; /* Zakulacení rohů */
+  cursor: pointer; /* Změna kurzoru na ručičku */
+  transition: background-color 0.3s; /* Plynulá změna barvy pozadí */
+}
+
+.button a{
+  color: white;
+}
+
+.button:hover {
+  background-color: #4a5886; /* Barva pozadí tlačítka při najetí myší */
+}
+
+
+@media screen and (max-width: 640px) {
+
+  .content{
+    width: 100%; /* Šířka divu */
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  .table-container{
+    overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
+  }
+
+}
