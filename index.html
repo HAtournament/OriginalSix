@@ -13,9 +13,7 @@
 
 <body>
 
-  
 <div class="content">
-
     <div class="navbar">
       <div class="button">
           <a href="tables.html">Standings</a>
@@ -26,25 +24,23 @@
       <div class="button">
           <a href="index.html">Registration</a>
       </div>
-  </div>
+    </div>
 
-  <table id="teams-table-body">
-    <thead>
-      <tr>
-        <th id="image-column-header">Image</th> <!-- Zde bude prázdný řetězec -->
-        <th>Team</th>
-        <th>Manager</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Zde budou vložena data pomocí JavaScriptu -->
-    </tbody>
-  </table>
-  
-  
-  
-  
-  <script>
+    <table id="teams-table-body">
+      <thead>
+        <tr>
+          <th id="image-column-header">Image</th> <!-- Zde bude prázdný řetězec -->
+          <th>Team</th>
+          <th>Manager</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Zde budou vložena data pomocí JavaScriptu -->
+      </tbody>
+    </table>
+</div>
+
+<script>
   fetch('teams.json')
   .then(response => response.json())
   .then(data => {
@@ -81,9 +77,6 @@
 
  </script>
 
-</div>
-
-<script src="teams.js"></script>
 </body>
 </html>
 
