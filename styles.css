@@ -54,6 +54,9 @@ caption {
 .division-table th{
   text-align: center;
 }
+.division-table th:first-child{
+  width: 20px;
+}
 
 .division-table th:nth-child(2) {
   text-align: left;
@@ -117,6 +120,11 @@ caption {
 
   .table-container{
     overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
+    width: 100%;
+  }
+
+  .division-table{
+
   }
 
 }
