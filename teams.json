@@ -2,97 +2,116 @@
     {
       "team": "NY Islanders",
       "manager": "Golem #B",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58485"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58485",
+      "image": "Pictures/teams/NewYorkIslanders.png"
     },
     {
-      "team": "Pittsburgh",
+      "team": "Pittsburgh Penguines",
       "manager": "tomson",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9011"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=9011",
+      "image": "Pictures/teams/PittsburghPenguines.png"
     },
     {
-      "team": "Anaheim",
+      "team": "Anaheim Ducks",
       "manager": "Dementedmate",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2373"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2373",
+      "image": "Pictures/teams/AnaheimDucks.png"
     },
     {
-      "team": "NY Rangers",
+      "team": "New York Rangers",
       "manager": "GloboX #B",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=59162"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=59162",
+      "image": "Pictures/teams/NewYorkRangers.png"
     },
     {
-      "team": "Buffalo",
+      "team": "Buffalo Sabres",
       "manager": "jAc",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=34124"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=34124",
+      "image": "Pictures/teams/BuffaloSabres.png"
     },
     {
-      "team": "Nashville",
+      "team": "Nashville Predators",
       "manager": "ROUL",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=31703"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=31703",
+      "image": "Pictures/teams/NashvillePredators.png"
     },
     {
-      "team": "Carolina",
+      "team": "Carolina Hurricanes",
       "manager": "pepe77",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=12401"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=12401",
+      "image": "Pictures/teams/CarolinaHurricanes.png"
     },
     {
-      "team": "Dallas",
+      "team": "Dallas Stars",
       "manager": "kaskader",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28315"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28315",
+      "image": "Pictures/teams/DallasStars.png"
     },
     {
-      "team": "San Jose",
+      "team": "San Jose Sharks",
       "manager": "6cvoki9",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58552"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58552",
+      "image": "Pictures/teams/SanJoseSharks.png"
     },
     {
-      "team": "Florida",
+      "team": "Florida Panthers",
       "manager": "Lada39 #B",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58824"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58824",
+      "image": "Pictures/teams/FloridaPanthers.png"
     },
     {
-      "team": "New Jersey",
+      "team": "New Jersey Devils",
       "manager": "Trsto #B",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28034"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=28034",
+      "image": "Pictures/teams/NewJerseyDevils.png"
     },
     {
-      "team": "Vegas",
+      "team": "Las Vegas Knights",
       "manager": "Stanlinho #B",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58913"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58913",
+      "image": "Pictures/teams/LasVegasKnights.png"
     },
     {
-      "team": "Chicago",
+      "team": "Chicago Blackhawks",
       "manager": "kazofus #B",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=59033"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=59033",
+      "image": "Pictures/teams/ChicagoBlackhawks.png"
     },
     {
-      "team": "Toronto",
+      "team": "Toronto Maple Leafs",
       "manager": "Morkai",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32972"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32972",
+      "image": "Pictures/teams/TorontoMapleLeafs.png"
     },
     {
-      "team": "Winnipeg",
+      "team": "Winnipeg Jets",
       "manager": "tybee",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=44968"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=44968",
+      "image": "Pictures/teams/WinnipegJets.png"
     },
     {
-      "team": "St. Louis",
+      "team": "St. Louis Blues",
       "manager": "trifid",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=41239"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=41239",
+      "image": "Pictures/teams/Blues.png"
     },
     {
-      "team": "Los Angeles",
+      "team": "Los Angeles Kings",
       "manager": "bandita",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2325"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2325",
+      "image": "Pictures/teams/LAkings.png"
     },
     {
-      "team": "Tampa Bay",
+      "team": "Tampa Bay Lightning",
       "manager": "Messi",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32433"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=32433",
+      "image": "Pictures/teams/TampaBay.png"
     },
     {
-      "team": "Washington",
+      "team": "Washington Capitals",
       "manager": "Mario_Lemieux",
-      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2763"
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2763",
+      "image": "Pictures/teams/Washington.png"
     }
   ]
   

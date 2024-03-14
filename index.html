@@ -28,9 +28,10 @@
       </div>
   </div>
 
-  <table id="team-table">
+  <table id="teams-table-body">
     <thead>
       <tr>
+        <th id="image-column-header">Image</th> <!-- Zde bude prázdný řetězec -->
         <th>Team</th>
         <th>Manager</th>
       </tr>
@@ -41,31 +42,44 @@
   </table>
   
   
+  
+  
   <script>
-      fetch('teams.json')
-      .then(response => response.json())
-      .then(data => {
-        const tableBody = document.querySelector('#team-table tbody');
-        data.forEach(team => {
-          const row = document.createElement('tr');
+  fetch('teams.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(team => {
+      const { team: teamName, manager, url, image } = team;
+      const tableRow = document.createElement('tr');
 
-          const teamNameCell = document.createElement('td');
-          const teamLink = document.createElement('a');
-          teamLink.href = team.url;
-          teamLink.textContent = team.team;
-          teamLink.target = '_blank'; // Otevřít odkaz v nové kartě
-          teamNameCell.appendChild(teamLink);
+      const imageCell = document.createElement('td');
+      const teamImage = document.createElement('img');
+      teamImage.src = image;
+      teamImage.alt = teamName;
+      teamImage.style.height = '20px'; // Nastaví výšku obrázku na 100px
+      imageCell.appendChild(teamImage);
+      imageCell.style.textAlign = 'center'; // Vycentruje obsah na střed
+      tableRow.appendChild(imageCell);
 
-          const managerCell = document.createElement('td');
-          managerCell.textContent = team.manager;
+      const teamNameCell = document.createElement('td');
+      const teamNameLink = document.createElement('a');
+      teamNameLink.textContent = teamName;
+      teamNameLink.href = url;
+      teamNameCell.appendChild(teamNameLink);
+      tableRow.appendChild(teamNameCell);
 
-          row.appendChild(teamNameCell);
-          row.appendChild(managerCell);
-          
-          tableBody.appendChild(row);
-        });
-      });
-  </script>
+      const managerCell = document.createElement('td');
+      managerCell.textContent = manager;
+      tableRow.appendChild(managerCell);
+
+      document.getElementById('teams-table-body').appendChild(tableRow);
+    });
+    // Nastaví prázdný řetězec pro obsah záhlaví sloupce "Image"
+    document.getElementById('image-column-header').textContent = '';
+  })
+  .catch(error => console.error('Chyba při načítání dat:', error));
+
+ </script>
 
 </div>
 
