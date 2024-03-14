@@ -140,6 +140,46 @@
       </tr>
     </tbody>
   </table>
+
+  <table id="team-table">
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Manager</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Zde budou vložena data pomocí JavaScriptu -->
+    </tbody>
+  </table>
+  
+  
+  <script>
+      fetch('teams.json')
+      .then(response => response.json())
+      .then(data => {
+        const tableBody = document.querySelector('#team-table tbody');
+        data.forEach(team => {
+          const row = document.createElement('tr');
+
+          const teamNameCell = document.createElement('td');
+          const teamLink = document.createElement('a');
+          teamLink.href = team.url;
+          teamLink.textContent = team.team;
+          teamLink.target = '_blank'; // Otevřít odkaz v nové kartě
+          teamNameCell.appendChild(teamLink);
+
+          const managerCell = document.createElement('td');
+          managerCell.textContent = team.manager;
+
+          row.appendChild(teamNameCell);
+          row.appendChild(managerCell);
+          
+          tableBody.appendChild(row);
+        });
+      });
+  </script>
+
 </div>
 
 <script src="teams.js"></script>
