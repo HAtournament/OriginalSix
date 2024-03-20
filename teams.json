@@ -112,6 +112,55 @@
       "manager": "Mario_Lemieux",
       "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=2763",
       "image": "Pictures/teams/Washington.png"
+    },
+    {
+      "team": "Arizona Coyotes",
+      "manager": "martin polo",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=25617",
+      "image": "Pictures/teams/ArizonaCoyotes.png"
+    },
+    {
+      "team": "Montreal Canadiens",
+      "manager": "Jan4195 #B",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=41109",
+      "image": "Pictures/teams/MontrealCanadiens.png"
+    },
+    {
+      "team": "Calgary Flames",
+      "manager": "fabian #B",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58936",
+      "image": "Pictures/teams/CalgaryFlames.png"
+    },
+    {
+      "team": "Ottawa Senators",
+      "manager": "Pijanko #B",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58706",
+      "image": "Pictures/teams/OttawaSenators.png"
+    },
+    {
+      "team": "Edmonton Oilers",
+      "manager": "Momo",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=25111",
+      "image": "Pictures/teams/EdmontonOilers.png"
+    },
+    {
+      "team": "Philadelphia Flyers",
+      "manager": "Broadstreet",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=3770",
+      "image": "Pictures/teams/PhiladelphiaFlyers.png"
+    },
+    {
+      "team": "Boston Bruins",
+      "manager": "tomas2104",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=31179",
+      "image": "Pictures/teams/BostonBruins.png"
+    },
+    {
+      "team": "Vancouver Canucks",
+      "manager": "Luke61cze",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=34201",
+      "image": "Pictures/teams/VancouverCanucks.png"
     }
+
   ]
   
