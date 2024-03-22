@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams Table</title>
+    <style>
+        /* CSS štýly pre tabuľku */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table id="teams-table">
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>Manager</th>
+                <th>URL</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody id="teams-table-body">
+            <!-- Dáta z JSON budú vložené sem -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetchovanie dát z JSON súboru
+        fetch('teams.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('teams-table-body');
+                data.forEach(team => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${team.team}</td>
+                        <td>${team.manager}</td>
+                        <td><a href="${team.url}" target="_blank">${team.url}</a></td>
+                        <td><img src="${team.image}" alt="${team.team}" style="width:50px;height:50px;"></td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Chyba pri načítaní dát:', error));
+    </script>
+</body>
+</html>

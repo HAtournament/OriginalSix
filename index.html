@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-    <title>Original Six Registration list</title>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-    
+    <title>Schedule</title> 
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
-
 <body>
-
   <section class="navigation">
     <div class="nav-container">
       <div class="brand">
@@ -48,59 +44,44 @@
     </div>
   </section>
 
-
-    <table id="teams-table-body">
-      <thead>
-        <tr>
-          <th id="image-column-header">Image</th> <!-- Zde bude prázdný řetězec -->
-          <th>Team</th>
-          <th>Manager</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Zde budou vložena data pomocí JavaScriptu -->
-      </tbody>
+    <table id="teams-table">
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>Manager</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="teams-table-body">
+            <!-- Dáta z JSON budú vložené sem -->
+        </tbody>
     </table>
-</div>
 
-<script src="navbar.js"></script>
-<script>
-  fetch('teams.json')
-  .then(response => response.json())
-  .then(data => {
-    data.forEach(team => {
-      const { team: teamName, manager, url, image } = team;
-      const tableRow = document.createElement('tr');
-
-      const imageCell = document.createElement('td');
-      const teamImage = document.createElement('img');
-      teamImage.src = image;
-      teamImage.alt = teamName;
-      teamImage.style.height = '22px'; // Nastaví výšku obrázku na 100px
-      imageCell.appendChild(teamImage);
-      imageCell.style.textAlign = 'center'; // Vycentruje obsah na střed
-      tableRow.appendChild(imageCell);
-
-      const teamNameCell = document.createElement('td');
-      const teamNameLink = document.createElement('a');
-      teamNameLink.textContent = teamName;
-      teamNameLink.href = url;
-      teamNameCell.appendChild(teamNameLink);
-      tableRow.appendChild(teamNameCell);
-
-      const managerCell = document.createElement('td');
-      managerCell.textContent = manager;
-      tableRow.appendChild(managerCell);
-
-      document.getElementById('teams-table-body').appendChild(tableRow);
-    });
-    // Nastaví prázdný řetězec pro obsah záhlaví sloupce "Image"
-    document.getElementById('image-column-header').textContent = '';
-  })
-  .catch(error => console.error('Chyba při načítání dat:', error));
-
- </script>
-
+    <script>
+        // Fetchovanie dát z JSON súboru
+        fetch('teams.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('teams-table-body');
+                data.forEach(team => {
+                    const row = document.createElement('tr');
+                    const teamLink = document.createElement('a');
+                    teamLink.href = team.url;
+                    teamLink.textContent = team.team;  // Použijeme textContent namiesto innerHTML
+                    const teamCell = document.createElement('td');
+                    teamCell.appendChild(teamLink);
+                    row.innerHTML += `
+                      <td style="width:30px; text-align: center;"><img src="${team.image}" alt="${team.team}" style="width:30px;height:30px;"></td>   
+                    `;
+                    row.appendChild(teamCell);
+                    row.innerHTML += `
+                      <td>${team.manager}</td>      
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Chyba pri načítaní dát:', error));
+    </script>
+    <script src="navbar.js"></script>
 </body>
 </html>
-
