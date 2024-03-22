@@ -268,11 +268,11 @@ text-align: center;
 } 
 
 .west  tbody tr:nth-child(n+1):nth-child(-n+8) {
-  background-color:lightblue;
+  background-color:lightgreen;
 }
 
 .east  tbody tr:nth-child(n+1):nth-child(-n+8) {
-  background-color: lightpink;
+  background-color: lightblue;
 }
   
 
