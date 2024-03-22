@@ -182,6 +182,33 @@ nav ul li ul li a {
   text-align: left;
 }
 
+
+#matches-table tr:nth-child(9),
+#matches-table tr:nth-child(17),
+#matches-table tr:nth-child(25),
+#matches-table tr:nth-child(33),
+#matches-table tr:nth-child(41),
+#matches-table tr:nth-child(49),
+#matches-table tr:nth-child(57),
+#matches-table tr:nth-child(65),
+#matches-table tr:nth-child(73),
+#matches-table tr:nth-child(81),
+#matches-table tr:nth-child(89),
+#matches-table tr:nth-child(97)
+ {
+  /* Tu pridajte štýly pre každý piaty <td> element */
+  /* Napríklad: */
+  background-color: lightblue;
+  font-weight: bold;
+}
+#matches-table tbody tr:first-child {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+
+
+
 @media only screen and (max-width: 798px) {
   .nav-mobile {
     display: block;
