@@ -49,6 +49,10 @@ caption {
   margin-bottom: 10px;
 }
 
+.main{
+  width: 100%;
+}
+
 .content{
   width: 100%; /* Šířka divu */
   margin: 0 auto; /* Vycentrování divu horizontálně */
@@ -63,6 +67,10 @@ caption {
 
 .table-container{
   width: 100%;
+}
+
+.table-container > table > tr > td:nth-child(2){
+  text-align: left;
 }
 
 .playoff-table > *{
@@ -193,33 +201,40 @@ nav ul li ul li a {
 
   .navbar-links {
     display: none;
+  }
+
+  .navbar-hamburger {
+      display: block;
+  }
+
+  .content{
+    width: 100%; /* Šířka divu */
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  .table-container{
+    overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
+    width: 90%;
+  }
+
+  .playoff-table{
+    overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
+    width: 100%;
+  }
+  .playoff-table table {
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  .main > img{
+    max-width: 100%;
+  }
 }
 
-.navbar-hamburger {
-    display: block;
-}
-
-.content{
-  width: 100%; /* Šířka divu */
-}
-
-table {
-  font-size: 16px;
-}
-
-.table-container{
-  overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
-  width: 90%;
-}
-
-.playoff-table{
-  overflow-x: auto; /* Přidá horizontální posuvnou lištu, pokud je obsah tabulky větší než šířka kontejneru */
-  width: 100%;
-}
-.playoff-table table {
-  width: 100%;
-}
-}
 @media screen and (min-width: 799px) {
   .nav-list {
     display: block !important;
