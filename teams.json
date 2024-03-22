@@ -66,7 +66,7 @@
       "image": "Pictures/teams/NewJerseyDevils.png"
     },
     {
-      "team": "Las Vegas Knights",
+      "team": "Vegas Golden Knights",
       "manager": "Stanlinho #B",
       "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58913",
       "image": "Pictures/teams/LasVegasKnights.png"
@@ -159,6 +159,12 @@
       "team": "Vancouver Canucks",
       "manager": "Luke61cze",
       "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=34201",
+      "image": "Pictures/teams/VancouverCanucks.png"
+    },
+    {
+      "team": "Minnesota Wild",
+      "manager": "fupko #B",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58443",
       "image": "Pictures/teams/VancouverCanucks.png"
     }
 

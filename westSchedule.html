@@ -9,6 +9,14 @@
     <title>Schedule</title> 
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <style>
+        .date-cell {
+    color: red;
+    font-weight: bold;
+}
+
+    </style>
 </head>
 <body>
   <section class="navigation">
@@ -66,7 +74,7 @@
 
   <script>
     // Fetchovanie a spracovanie CSV súboru s informáciami o zápasoch
-    fetch('Ematches.csv')
+    fetch('West.csv')
       .then(response => response.text())
       .then(data => {
         const rows = data.split('\n');
@@ -116,6 +124,12 @@
         .catch(error => console.error('Error:', error));
     }
     </script>
+
+
+
+
+
+
     
     
 

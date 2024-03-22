@@ -44,71 +44,7 @@
     </div>
   </section>
   
-  <table id="matches-table">
-    <thead>
-      <tr>
-        <th>Team</th>
-        <th>Výsledok</th>
-        <th>Team</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Tabuľka bude vyplnená JavaScriptom -->
-    </tbody>
-  </table>
 
-  <script>
-    // Fetchovanie a spracovanie CSV súboru s informáciami o zápasoch
-    fetch('../Ematches.csv')
-      .then(response => response.text())
-      .then(data => {
-        const rows = data.split('\n');
-        const tableBody = document.querySelector('#matches-table tbody');
-    
-        rows.forEach(row => {
-          const cells = row.split(';');
-          const team1 = cells[0] ? cells[0].trim() : ''; // overenie, či je prvý stĺpec definovaný
-          const vysledok = cells[1] ? cells[1].trim() : ''; // overenie, či je druhý stĺpec definovaný
-          const team2 = cells[2] ? cells[2].trim() : ''; // overenie, či je tretí stĺpec definovaný
-    
-          // Kontrola, či je prvý stĺpec definovaný
-          if (team1) {
-            // Ak existuje tretí stĺpec, zobrazíme riadok ako zápas
-            if (team2) {
-              const tableRow = document.createElement('tr');
-              tableRow.innerHTML = `
-                <td><a href="#" onclick="showTeamInfo('${team1}')">${team1}</a></td>
-                <td>${vysledok}</td>
-                <td><a href="#" onclick="showTeamInfo('${team2}')">${team2}</a></td>
-              `;
-              tableBody.appendChild(tableRow);
-            } else {
-              // Inak, zobrazíme riadok ako dátum alebo "X.kolo"
-              const tableRow = document.createElement('tr');
-              tableRow.classList.add('date-row'); // Pridáme triedu pre špeciálny štýl
-              tableRow.innerHTML = `
-                <td colspan="3"><strong>${team1}</strong></td>
-              `;
-              tableBody.appendChild(tableRow);
-            }
-          }
-        });
-      })
-      .catch(error => console.error('Error:', error));
-    
-    // Funkcia na zobrazenie informácií o tíme v novom okne
-    function showTeamInfo(teamName) {
-      fetch('../teams.json')
-        .then(response => response.json())
-        .then(data => {
-          const team = data.find(team => team.team === teamName);
-          if (team) {
-            window.open(team.url, '_blank');
-          }
-        })
-        .catch(error => console.error('Error:', error));
-    }
-    </script>
     
     
 
