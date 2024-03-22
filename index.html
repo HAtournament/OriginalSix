@@ -23,7 +23,7 @@
             <a href="schedule.html">Schedule</a>
           </li>
           <li>
-            <a href="index.html">Registration</a>
+            <a href="registration.html">Registration</a>
           </li>
           <li>
             <a href="#!">Standings</a>
@@ -44,44 +44,7 @@
     </div>
   </section>
 
-    <table id="teams-table">
-        <thead>
-            <tr>
-              <th></th>
-              <th>Team</th>
-              <th>Manager</th>
-            </tr>
-        </thead>
-        <tbody id="teams-table-body">
-            <!-- Dáta z JSON budú vložené sem -->
-        </tbody>
-    </table>
-
-    <script>
-        // Fetchovanie dát z JSON súboru
-        fetch('teams.json')
-            .then(response => response.json())
-            .then(data => {
-                const tableBody = document.getElementById('teams-table-body');
-                data.forEach(team => {
-                    const row = document.createElement('tr');
-                    const teamLink = document.createElement('a');
-                    teamLink.href = team.url;
-                    teamLink.textContent = team.team;  // Použijeme textContent namiesto innerHTML
-                    const teamCell = document.createElement('td');
-                    teamCell.appendChild(teamLink);
-                    row.innerHTML += `
-                      <td style="width:30px; text-align: center;"><img src="${team.image}" alt="${team.team}" style="width:30px;height:30px;"></td>   
-                    `;
-                    row.appendChild(teamCell);
-                    row.innerHTML += `
-                      <td>${team.manager}</td>      
-                    `;
-                    tableBody.appendChild(row);
-                });
-            })
-            .catch(error => console.error('Chyba pri načítaní dát:', error));
-    </script>
+    
     <script src="navbar.js"></script>
 </body>
 </html>
