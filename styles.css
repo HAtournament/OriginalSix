@@ -206,6 +206,10 @@ nav ul li ul li a {
   font-weight: bold;
 }
 
+#matches-table thead{
+text-align: center;
+}
+
 
 
 
