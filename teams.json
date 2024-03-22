@@ -166,6 +166,12 @@
       "manager": "fupko #B",
       "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=58443",
       "image": "Pictures/teams/MinnesotaWild.png"
+    },
+    {
+      "team": "Columbus Blue Jackets",
+      "manager": "standik #B",
+      "url": "https://www.hockeyarena.net/sk/index.php?p=public_team_info_basic.php&team_id=35553",
+      "image": "Pictures/teams/ColumbusBlueJackets.png"
     }
 
   ]
