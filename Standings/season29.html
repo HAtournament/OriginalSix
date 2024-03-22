@@ -56,11 +56,6 @@
   </table>
 
   <script>
-    // Funkcia na zobrazenie informácií o tíme v novom okne
-    function showTeamInfo(teamName, url) {
-      window.open(url, '_blank');
-    }
-    
     // Fetchovanie a spracovanie CSV súboru s informáciami o zápasoch
     fetch('../matches.csv')
       .then(response => response.text())
@@ -80,9 +75,9 @@
             if (team2) {
               const tableRow = document.createElement('tr');
               tableRow.innerHTML = `
-                <td><a href="#" onclick="showTeamInfo('${team1}', '')">${team1}</a></td>
+                <td><a href="#" onclick="showTeamInfo('${team1}')">${team1}</a></td>
                 <td>${vysledok}</td>
-                <td><a href="#" onclick="showTeamInfo('${team2}', '')">${team2}</a></td>
+                <td><a href="#" onclick="showTeamInfo('${team2}')">${team2}</a></td>
               `;
               tableBody.appendChild(tableRow);
             } else {
@@ -99,16 +94,19 @@
       })
       .catch(error => console.error('Error:', error));
     
-    // Fetchovanie a spracovanie JSON súboru s informáciami o tímoch
-    fetch('../teams.json')
-      .then(response => response.json())
-      .then(data => {
-        // Priradenie informácií o tímoch do globálnej premennej
-        window.teamsData = data;
-      })
-      .catch(error => console.error('Error:', error));
+    // Funkcia na zobrazenie informácií o tíme v novom okne
+    function showTeamInfo(teamName) {
+      fetch('../teams.json')
+        .then(response => response.json())
+        .then(data => {
+          const team = data.find(team => team.team === teamName);
+          if (team) {
+            window.open(team.url, '_blank');
+          }
+        })
+        .catch(error => console.error('Error:', error));
+    }
     </script>
-    
     
     
 
