@@ -210,11 +210,11 @@ nav ul li ul li a {
 text-align: center;
 }
 
-.west-table{
+.standings-table{
   text-align: center;
 }
 
-.west-table tr td:nth-child(2){
+.standings-table tr td:nth-child(2){
   text-align: left;
   font-weight: 200;
 } 
