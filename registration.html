@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teams Table</title>
-    <style>
-        /* CSS štýly pre tabuľku */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Schedule</title> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="index.html">Original Six</a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="schedule.html">Schedule</a>
+          </li>
+          <li>
+            <a href="index.html">Registration</a>
+          </li>
+          <li>
+            <a href="#!">Standings</a>
+            <ul class="nav-dropdown">
+              <li>
+                <a href="Standings/season28.html">Season 28</a>
+              </li>
+              <li>
+                <a href="Standings/season29.html">Season 29</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="playoff.html">Play Off</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
     <table id="teams-table">
         <thead>
             <tr>
+                <th></th>
                 <th>Team</th>
                 <th>Manager</th>
-                <th>URL</th>
-                <th>Image</th>
             </tr>
         </thead>
         <tbody id="teams-table-body">
@@ -46,16 +65,23 @@
                 const tableBody = document.getElementById('teams-table-body');
                 data.forEach(team => {
                     const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td>${team.team}</td>
-                        <td>${team.manager}</td>
-                        <td><a href="${team.url}" target="_blank">${team.url}</a></td>
-                        <td><img src="${team.image}" alt="${team.team}" style="width:50px;height:50px;"></td>
+                    const teamLink = document.createElement('a');
+                    teamLink.href = team.url;
+                    teamLink.textContent = team.team;  // Použijeme textContent namiesto innerHTML
+                    const teamCell = document.createElement('td');
+                    teamCell.appendChild(teamLink);
+                    row.innerHTML += `
+                      <td style="width:30px; text-align: center;"><img src="${team.image}" alt="${team.team}" style="width:30px;height:30px;"></td>   
+                    `;
+                    row.appendChild(teamCell);
+                    row.innerHTML += `
+                      <td>${team.manager}</td>      
                     `;
                     tableBody.appendChild(row);
                 });
             })
             .catch(error => console.error('Chyba pri načítaní dát:', error));
     </script>
+    <script src="navbar.js"></script>
 </body>
 </html>
