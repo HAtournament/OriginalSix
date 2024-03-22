@@ -68,11 +68,11 @@
             <tr>
             <td class="position">1.</td>
             <td class="left"><strong> Arizona Coyotes</strong></td>
-            <td>1</td>
-            <td>1</td>
             <td>0</td>
-            <td>2:1</td>
-            <td><strong>2</strong></td>
+            <td>0</td>
+            <td>0</td>
+            <td>0:0</td>
+            <td><strong>0</strong></td>
         </tr>
                         <tr>
             <td class="position">2.</td>
@@ -193,45 +193,5 @@
         </tr>
                         </tbody>
     </table>
-
-
-    <table>
-      <thead>
-          <tr>
-              <th>Season</th>
-              <th>Team</th>
-              <th>Manager</th>
-          </tr>
-      </thead>
-      <tbody id="matches-body">
-          <!-- Data will be inserted here using JavaScript -->
-      </tbody>
-  </table>
-
-  <script>
-      fetch('EAST.json')
-          .then(response => response.json())
-          .then(data => {
-              const matchesBody = document.getElementById('matches-body');
-              data.periods.forEach((round, index) => {
-                  round.matches.forEach(match => {
-                      match.teams.forEach(team => {
-                          const row = document.createElement('tr');
-                          const seasonCell = document.createElement('td');
-                          seasonCell.textContent = (index + 1) + '. season';
-                          row.appendChild(seasonCell);
-                          const teamCell = document.createElement('td');
-                          teamCell.textContent = team.trim();
-                          row.appendChild(teamCell);
-                          const managerCell = document.createElement('td');
-                          managerCell.textContent = data.players[team].join(', ');
-                          row.appendChild(managerCell);
-                          matchesBody.appendChild(row);
-                      });
-                  });
-              });
-          })
-          .catch(error => console.error('Error fetching data:', error));
-  </script>
 </body>
 </html>
