@@ -111,32 +111,38 @@ a {
   color: black;
 }
 
-
-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  background-color: white;
-  padding: 20px;
-}
+  /* Štýly pre tabuľku */
+  table {
+    width: 30%; /* Menšia šírka */
+    margin: 0 auto; /* Stredné zarovnanie */
+    border-collapse: collapse;
+    border: 1px solid #a2a9b1;
+    margin-bottom: 20px;
+  }
   
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px 16px 8px 16px;
-  text-align: left;
-}
+  table th,
+  table td {
+    border: 1px solid #a2a9b1;
+    padding: 8px;
+  }
+  table td:nth-child(2){
+    text-align: center;
+  }
   
-th {
-  background-color: #f2f2f2;
-}
+  /* Štýly pre záhlavie tabuľky */
+  table thead {
+    background-color: #f2f2f2;
+  }
   
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+  /* Štýly pre nepárne riadky tabuľky */
+  table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
   
-tr:hover {
-  background-color: #ddd;
-}
+  /* Štýly pre hover efekt nad riadkom tabuľky */
+  table tbody tr:hover {
+    background-color: #e6f7ff;
+  }
   
 caption {
   font-size: 1.1em;
