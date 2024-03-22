@@ -62,7 +62,7 @@
     }
     
     // Fetchovanie a spracovanie CSV súboru s informáciami o zápasoch
-    fetch('matches.csv')
+    fetch('../matches.csv')
       .then(response => response.text())
       .then(data => {
         const rows = data.split('\n');
@@ -100,7 +100,7 @@
       .catch(error => console.error('Error:', error));
     
     // Fetchovanie a spracovanie JSON súboru s informáciami o tímoch
-    fetch('teams.json')
+    fetch('../teams.json')
       .then(response => response.json())
       .then(data => {
         // Priradenie informácií o tímoch do globálnej premennej
