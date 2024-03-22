@@ -174,6 +174,14 @@ nav ul li ul li a {
   width: 70px;
 }
 
+
+.SCwinners td:nth-child(1){
+  text-align: center;
+}
+.SCwinners td:nth-child(2){
+  text-align: left;
+}
+
 @media only screen and (max-width: 798px) {
   .nav-mobile {
     display: block;
