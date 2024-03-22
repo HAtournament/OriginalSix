@@ -266,6 +266,14 @@ text-align: center;
   text-align: left;
   font-weight: 200;
 } 
+
+.west  tbody tr:nth-child(n+1):nth-child(-n+8) {
+  background-color:lightblue;
+}
+
+.east  tbody tr:nth-child(n+1):nth-child(-n+8) {
+  background-color: lightpink;
+}
   
 
 @media only screen and (max-width: 798px) {
