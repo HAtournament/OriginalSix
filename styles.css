@@ -210,8 +210,15 @@ nav ul li ul li a {
 text-align: center;
 }
 
+.west-table{
+  text-align: center;
+}
 
-
+.west-table tr td:nth-child(2){
+  text-align: left;
+  font-weight: 200;
+} 
+  
 
 @media only screen and (max-width: 798px) {
   .nav-mobile {
