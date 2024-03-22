@@ -394,6 +394,15 @@ nav ul li ul li a {
   height: 70px;
   width: 70px;
 }
+
+
+#matches-table tbody tr.date-row td {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+
 @media only screen and (max-width: 798px) {
   .nav-mobile {
     display: block;
