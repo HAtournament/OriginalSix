@@ -97,8 +97,8 @@ caption {
   margin-bottom: 10px;
 }
 
-.main{
-  width: 100%;
+.SCteams{
+  width: auto;
 }
 
 .content{
@@ -332,6 +332,7 @@ text-align: center;
   }
   .main{
     width: 100%;
+    margin: 0 auto;
   }
   .main > img{
     max-width: 100%;
