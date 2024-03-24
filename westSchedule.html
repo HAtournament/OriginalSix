@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
-    <title>Schedule</title> 
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-</head>
+
+<script src="js/head.js"></script>
+
 <body>
   <script src="js/menu.js"></script>
 
@@ -17,7 +10,7 @@
     <thead>
       <tr>
         <th><a href="westSchedule.html">West</a></th>
-        <th><a href="eastSchedule.html">East</a></th>   
+        <th><a href="eastSchedule.html">East</a></th>
       </tr>
     </thead>
   </table>
@@ -25,7 +18,7 @@
     <thead>
       <tr>
         <th>Team</th>
-        <th>Výsledok</th>
+        <th>Result</th>
         <th>Team</th>
       </tr>
     </thead>
@@ -41,13 +34,13 @@
       .then(data => {
         const rows = data.split('\n');
         const tableBody = document.querySelector('#matches-table tbody');
-    
+
         rows.forEach(row => {
           const cells = row.split(';');
           const team1 = cells[0] ? cells[0].trim() : ''; // overenie, či je prvý stĺpec definovaný
           const vysledok = cells[1] ? cells[1].trim() : ''; // overenie, či je druhý stĺpec definovaný
           const team2 = cells[2] ? cells[2].trim() : ''; // overenie, či je tretí stĺpec definovaný
-    
+
           // Kontrola, či je prvý stĺpec definovaný
           if (team1) {
             // Ak existuje tretí stĺpec, zobrazíme riadok ako zápas
@@ -72,7 +65,7 @@
         });
       })
       .catch(error => console.error('Error:', error));
-    
+
     // Funkcia na zobrazenie informácií o tíme v novom okne
     function showTeamInfo(teamName) {
       fetch('json/teams.json')
@@ -88,4 +81,5 @@
   </script>
 
 </body>
+
 </html>
