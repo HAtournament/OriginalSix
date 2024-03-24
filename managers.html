@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
-  <script src="menu.js"></script>
+  <script src="js/menu.js"></script>
 
     <table id="teams-table">
         <thead>
@@ -28,7 +28,7 @@
 
     <script>
         // Fetchovanie dát z JSON súboru
-        fetch('teams.json')
+        fetch('json/teams.json')
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.getElementById('teams-table-body');
@@ -51,6 +51,6 @@
             })
             .catch(error => console.error('Chyba pri načítaní dát:', error));
     </script>
-    <script src="navbar.js"></script>
+
 </body>
 </html>

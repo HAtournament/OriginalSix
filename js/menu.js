@@ -11,7 +11,7 @@ var navbarHTML = `
         <a href="schedule.html">Schedule</a>
       </li>
       <li>
-        <a href="table.html">Standings</a>
+        <a href="standings.html">Standings</a>
       </li>   
       <li>
         <a href="statistics.html">Statistics</a>
@@ -33,7 +33,7 @@ var navbarHTML = `
         <a href="playoff.html">Play Off</a>
       </li>
       <li>
-        <a href="registration.html">Managers</a>
+        <a href="managers.html">Managers</a>
       </li>
       <li>
         <a href="history.html">History</a>
@@ -42,6 +42,7 @@ var navbarHTML = `
   </nav>
 </div>
 </section>
+<script src="js/navbar.js"></script>
 `;
 
 document.write(navbarHTML);

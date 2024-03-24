@@ -11,8 +11,8 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
-  <script src="menu.js"></script>
-  
+  <script src="js/menu.js"></script>
+
   <table id="matches-table">
     <thead>
       <tr>
@@ -36,7 +36,7 @@
 
   <script>
     // Fetchovanie a spracovanie CSV súboru s informáciami o zápasoch
-    fetch('West.csv')
+    fetch('csv/West.csv')
       .then(response => response.text())
       .then(data => {
         const rows = data.split('\n');
@@ -75,7 +75,7 @@
     
     // Funkcia na zobrazenie informácií o tíme v novom okne
     function showTeamInfo(teamName) {
-      fetch('teams.json')
+      fetch('json/teams.json')
         .then(response => response.json())
         .then(data => {
           const team = data.find(team => team.team === teamName);
@@ -86,6 +86,6 @@
         .catch(error => console.error('Error:', error));
     }
   </script>
-  <script src="../navbar.js"></script>
+
 </body>
 </html>
