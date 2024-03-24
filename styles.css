@@ -64,6 +64,7 @@ article {
     border: 1px solid #a2a9b1;
     margin-bottom: 20px;
     text-align: left;
+    font-family: Arial, sans-serif;
   }
 
 
@@ -280,10 +281,14 @@ text-align: center;
 }
 
 .statistics-table tbody tr td:first-child,
-.statistics-table thead th:first-child
+.statistics-table tbody tr td:last-child,
+.statistics-table thead th:first-child,
+.statistics-table thead th:last-child
 {
   text-align: center;
 }
+
+
 
 .statistics-table tbody tr:first-child
 {
