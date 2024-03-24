@@ -67,7 +67,6 @@ article {
     font-family: Arial, sans-serif;
   }
 
-
   table th,
   table td {
     border: 1px solid #a2a9b1;
@@ -92,11 +91,6 @@ article {
     background-color: #e6f7ff;
   }
   
-caption {
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
 
 .SCteams{
   width: auto;
