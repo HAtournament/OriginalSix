@@ -288,11 +288,8 @@ text-align: center;
   text-align: center;
 }
 
-
-
 .statistics-table tbody tr:first-child
 {
-  font-weight: bold;
   background-color: #FFFF99;
 }
   
