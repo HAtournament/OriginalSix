@@ -274,6 +274,21 @@ text-align: center;
 .east  tbody tr:nth-child(n+1):nth-child(-n+8) {
   background-color: lightpink;
 }
+
+.statistics-table tbody tr td{
+  text-align: left;
+}
+
+.statistics-table tbody tr td:first-child,
+.statistics-table thead th:first-child
+{
+  text-align: center;
+}
+
+.statistics-table tbody tr:first-child
+{
+  font-weight: bold;
+}
   
 
 @media only screen and (max-width: 798px) {
