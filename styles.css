@@ -270,19 +270,19 @@ text-align: center;
   background-color: lightpink;
 }
 
-.statistics-table tbody tr td{
+.playersTable tbody tr td{
   text-align: left;
 }
 
-.statistics-table tbody tr td:first-child,
-.statistics-table tbody tr td:last-child,
-.statistics-table thead th:first-child,
-.statistics-table thead th:last-child
+.playersTable tbody tr td:first-child,
+.playersTable tbody tr td:last-child,
+.playersTable thead th:first-child,
+.playersTable thead th:last-child
 {
   text-align: center;
 }
 
-.statistics-table tbody tr:first-child
+.playersTable tbody tr:first-child
 {
   background-color: #FFFF99;
 }
