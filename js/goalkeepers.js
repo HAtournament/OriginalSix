@@ -25,7 +25,7 @@ fetch('json/goalkeepers.json')
             rankCell.textContent = index + 1;
             playerNameCell.textContent = player.player;
             teamCell.textContent = player.team;
-            percentageCell.textContent = player.percentage;
+            percentageCell.textContent = player.percentage +"%";
 
             row.appendChild(rankCell);
             row.appendChild(playerNameCell);
