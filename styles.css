@@ -252,6 +252,9 @@ nav ul li ul li a {
 #matches-table thead{
 text-align: center;
 }
+#matches-table tr td:nth-child(2){
+  text-align: center;
+} 
 
 .standings-table{
   text-align: center;
