@@ -73,7 +73,7 @@
         .then(data => {
           const team = data.find(team => team.team === teamName);
           if (team) {
-            window.open(team.url);
+            window.location.href = team.url;
           }
         })
         .catch(error => console.error('Error:', error));
