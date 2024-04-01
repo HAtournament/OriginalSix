@@ -1,0 +1,40 @@
+{
+    "EAST": [
+      {"team": "New Jersey Devils", "player": "Bojislav Csino", "percentage": 95.1},
+      {"team": "Tampa Bay Lightning", "player": "Dayu Endoso", "percentage": 93.6},
+      {"team": "New York Rangers", "player": "Pablo Gaitán", "percentage": 93.1},
+      {"team": "New York Islanders", "player": "Iiro Keijonen", "percentage": 93},
+      {"team": "Carolina Hurricanes", "player": "Denis Yashin", "percentage": 91.9},
+      {"team": "New Jersey Devils", "player": "Libor Hrdý", "percentage": 90.4},
+      {"team": "Columbus Blue Jackets", "player": "Riho Ilves", "percentage": 89.7},
+      {"team": "Toronto Maple Leafs", "player": "Michal Smolík", "percentage": 89.1},
+      {"team": "New York Rangers", "player": "Chad Bacon", "percentage": 88.9},
+      {"team": "Philadelphia Flyers", "player": "Fraser St-John", "percentage": 86.2},
+      {"team": "Montreal Canadiens", "player": "Iivari Nilsson", "percentage": 84.7},
+      {"team": "Florida Panthers", "player": "Gary Newman", "percentage": 84.4},
+      {"team": "Buffalo Sabres", "player": "Yan Selitrennikov", "percentage": 82.2},
+      {"team": "Washington Capitals", "player": "Matej Kaliňák", "percentage": 81.6},
+      {"team": "Boston Bruins", "player": "Hank Beukeboom", "percentage": 80.8},
+      {"team": "Ottawa Senators", "player": "Fabio Rey", "percentage": 77.9}
+    ],
+    "WEST": [
+      {"team": "Edmonton Oilers", "player": "Móric Mester", "percentage": 100},
+      {"team": "Anaheim Ducks", "player": "Alexander Kollar", "percentage": 97.8},
+      {"team": "Vancouver Canucks", "player": "Kārlis Macāns", "percentage": 96.8},
+      {"team": "San Jose Sharks", "player": "Masayuki Noguchi", "percentage": 93.5},
+      {"team": "Vegas Golden Knights", "player": "Adrian Angelov", "percentage": 91.4},
+      {"team": "Dallas Stars", "player": "Elmar Jurko", "percentage": 91.4},
+      {"team": "Chicago Blackhawks", "player": "Rudolf Virágh", "percentage": 90.5},
+      {"team": "Calgary Flames", "player": "Ctibor Levý", "percentage": 89.1},
+      {"team": "Los Angeles Kings", "player": "Roman Kostolanský", "percentage": 88.1},
+      {"team": "Winnipeg Jets", "player": "Jesper Sjölin", "percentage": 87.9},
+      {"team": "Minnesota Wild", "player": "Emonoelis Jaselis", "percentage": 87.8},
+      {"team": "St. Louis Blues", "player": "Cyril Kudelas", "percentage": 85.5},
+      {"team": "Arizona Coyotes", "player": "Ivo Kahar", "percentage": 85},
+      {"team": "Edmonton Oilers", "player": "Oleh Poplypitskiy", "percentage": 80.6},
+      {"team": "Nashville Predators", "player": "Emilian Górski", "percentage": 76.9},
+      {"team": "Nashville Predators", "player": "Abrahám Motýľ", "percentage": 73.3},
+      {"team": "Nashville Predators", "player": "Linus Blomberg", "percentage": 72.7}
+    ]
+  }
+  

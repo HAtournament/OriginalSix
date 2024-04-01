@@ -11,8 +11,8 @@
     "fieldsCount": 7,
     "playersCount": 117,
     "matchesCount": 91,
-    "goalsCount": 172,
-    "averageGoalsInMatch": 1.89010989010989
+    "goalsCount": 226,
+    "averageGoalsInMatch": 2.4835164835164836
   },
   "winners": {
     "teams": {
@@ -25,24 +25,20 @@
         {
           "player": "Branko Emeršič",
           "team": "St. Louis Blues"
+        },
+        {
+          "player": "Petr Khotunskiy",
+          "team": "Chicago Blackhawks"
         }
       ],
       "9": [
         {
-          "player": "Emiel De Fays",
-          "team": "Edmonton Oilers"
-        }
-      ],
-      "8": [
-        {
-          "player": "Xavier Siguas",
-          "team": "Calgary Flames"
-        }
-      ],
-      "7": [
-        {
           "player": "Antonín Zeman",
           "team": "Anaheim Ducks"
+        },
+        {
+          "player": "Emiel De Fays",
+          "team": "Edmonton Oilers"
         }
       ]
     },
@@ -55,8 +51,8 @@
   "teamPlayers": {
     "St. Louis Blues": {
       "Branko Emeršič": 10,
-      "Max Hanson": 4,
-      "Oleg Přikryl": 3,
+      "Max Hanson": 5,
+      "Oleg Přikryl": 4,
       "Ivo Vunk": 1,
       "Elvis Bombic": 1,
       "Franco Alejos": 0,
@@ -64,13 +60,35 @@
       "Sergio Molas": 0,
       "Beni Surbeck": 0
     },
+    "Chicago Blackhawks": {
+      "Petr Khotunskiy": 10,
+      "Juan Pablo Trujillo": 5,
+      "Gerhard Jurašek": 4,
+      "Germán Salas": 4,
+      "Marin Rebreanu": 2,
+      "Tomáš Bartoš": 1,
+      "Kliment Romačák ": 0,
+      "Marijan Virt": 0,
+      "Silvester Hamuľák": 0
+    },
+    "Anaheim Ducks": {
+      "Antonín Zeman": 9,
+      "Martin Minár": 6,
+      "Joseph Callan": 5,
+      "Mohammad Berger": 5,
+      "Milan Pukalovič": 4,
+      "Ayden Wakely": 4,
+      "Marian Mais": 2,
+      "Diego Bravo": 0,
+      "Nathan Fletcher": 0
+    },
     "Edmonton Oilers": {
       "Emiel De Fays": 9,
-      "Tudor Anghel": 4,
+      "Tudor Anghel": 5,
       "Vasil\u0027 Sinkevich": 3,
       "Olav Löwe": 2,
+      "Nathan Denney": 2,
       "Danila Neuchkin": 2,
-      "Nathan Denney": 1,
       "Jeff Stienstra": 1,
       "Dmitriy Sorochenko ": 0,
       "Izák Frtús": 0,
@@ -78,27 +96,16 @@
     },
     "Calgary Flames": {
       "Xavier Siguas": 8,
-      "Dante Tineo": 4,
+      "Dante Tineo": 5,
+      "Kensaku Funabashi": 5,
       "Edmundo Nero": 2,
-      "Kensaku Funabashi": 2,
       "Spomenko Hiroš": 1,
+      "Gregory Jeker": 1,
       "Matt Weir": 1,
       "György Horti": 0,
       "Rudolf Henriczy": 0,
-      "Gregory Jeker": 0,
       "Adi Tamir": 0,
       "Anton Turkovskiy": 0
-    },
-    "Anaheim Ducks": {
-      "Antonín Zeman": 7,
-      "Martin Minár": 5,
-      "Ayden Wakely": 3,
-      "Marian Mais": 2,
-      "Joseph Callan": 2,
-      "Mohammad Berger": 2,
-      "Milan Pukalovič": 1,
-      "Diego Bravo": 0,
-      "Nathan Fletcher": 0
     },
     "Minnesota Wild": {
       "Edgars Siliņš": 6,
@@ -113,31 +120,34 @@
       "Vilgelmas Greičaitis": 0,
       "Julijanas Korinskas": 0
     },
-    "Chicago Blackhawks": {
-      "Petr Khotunskiy": 5,
-      "Juan Pablo Trujillo": 3,
-      "Germán Salas": 2,
-      "Tomáš Bartoš": 1,
-      "Marin Rebreanu": 0,
-      "Gerhard Jurašek": 0,
-      "Kliment Romačák ": 0,
-      "Marijan Virt": 0,
-      "Silvester Hamuľák": 0
-    },
     "Vegas Golden Knights": {
-      "Martyn Hills": 4,
+      "Martyn Hills": 5,
+      "Josef Heger": 4,
+      "Erkki Perttuli": 4,
       "Jaroslav Poláček": 3,
-      "Josef Heger": 3,
-      "Erkki Perttuli": 3,
-      "Christopher Bigun": 2,
+      "Christopher Bigun": 3,
       "Béla Krupička": 1,
+      "Naganori Iemochi": 1,
       "Ysidro Menéndez": 1,
-      "Dennis Marklund ": 0,
-      "Naganori Iemochi": 0
+      "Dennis Marklund ": 0
+    },
+    "Arizona Coyotes": {
+      "Kristián Hostinský": 4,
+      "Radoslav Chanev": 2,
+      "Sebastián Maciá": 2,
+      "Georg Seestrandt ": 2,
+      "Peter Lovecký": 1,
+      "Arpád Pekár": 1,
+      "Ľubomír Nipča": 1,
+      "Leonard Divinec": 0,
+      "Bálint Egerszegi": 0,
+      "Michal Malík": 0,
+      "Albín Richtarčík ": 0,
+      "Michal Kleštinec": 0
     },
     "Vancouver Canucks": {
       "Dzidris Klodāns": 3,
-      "Michal Bartoš": 2,
+      "Michal Bartoš": 3,
       "Daniel Jánský": 2,
       "Česlovas Palevičius ": 1,
       "Jakub Jedlička": 1,
@@ -146,36 +156,22 @@
       "Koloman Krajčír": 0,
       "Matěj Růžička": 0
     },
-    "Arizona Coyotes": {
-      "Kristián Hostinský": 3,
-      "Radoslav Chanev": 2,
-      "Sebastián Maciá": 1,
-      "Peter Lovecký": 1,
-      "Arpád Pekár": 1,
-      "Georg Seestrandt ": 1,
-      "Ľubomír Nipča": 1,
-      "Leonard Divinec": 0,
-      "Bálint Egerszegi": 0,
-      "Michal Malík": 0,
-      "Albín Richtarčík ": 0,
-      "Michal Kleštinec": 0
-    },
     "Winnipeg Jets": {
       "Belo Zelina": 3,
       "Ľubomír Ožvalda ": 1,
       "Pavol Etreška": 1,
+      "Jaromil Buček": 1,
       "Ervín Lizák": 1,
       "Dalibor Petrovič ": 1,
       "Ivan Šmajda": 0,
-      "Jaromil Buček": 0,
       "Matej Paulovič": 0,
       "Adam Ivanič": 0
     },
     "Los Angeles Kings": {
+      "Radoslav Bodnár": 3,
+      "Štefan Krompáč": 3,
       "Felicián Klepáč": 3,
-      "Radoslav Bodnár": 2,
       "Roman Semančík": 2,
-      "Štefan Krompáč": 2,
       "Bruno Schwaiger": 1,
       "Boris Horváth": 0,
       "Juraj Rozložník": 0,
@@ -183,7 +179,7 @@
       "Zoran Cehlár": 0
     },
     "San Jose Sharks": {
-      "Miikka Metsäkumpu": 2,
+      "Miikka Metsäkumpu": 3,
       "Imant Torn": 0,
       "Lukáš Navrátil": 0,
       "Gejza Očkaják": 0,
@@ -202,6 +198,20 @@
       "Teams": {
         "Calgary Flames": {
           "rank": 1,
+          "matchesCount": 5,
+          "winsCount": 5,
+          "winsNormalCount": 5,
+          "winsExtraCount": 0,
+          "drawsCount": 0,
+          "lossesCount": 0,
+          "lossesNormalCount": 0,
+          "lossesExtraCount": 0,
+          "goalsFor": 22,
+          "goalsAgainst": 9,
+          "points": 10
+        },
+        "Vegas Golden Knights": {
+          "rank": 2,
           "matchesCount": 4,
           "winsCount": 4,
           "winsNormalCount": 4,
@@ -210,26 +220,26 @@
           "lossesCount": 0,
           "lossesNormalCount": 0,
           "lossesExtraCount": 0,
-          "goalsFor": 17,
-          "goalsAgainst": 7,
+          "goalsFor": 22,
+          "goalsAgainst": 6,
           "points": 8
-        },
-        "Vegas Golden Knights": {
-          "rank": 2,
-          "matchesCount": 3,
-          "winsCount": 3,
-          "winsNormalCount": 3,
-          "winsExtraCount": 0,
-          "drawsCount": 0,
-          "lossesCount": 0,
-          "lossesNormalCount": 0,
-          "lossesExtraCount": 0,
-          "goalsFor": 17,
-          "goalsAgainst": 4,
-          "points": 6
         },
         "Anaheim Ducks": {
           "rank": 3,
+          "matchesCount": 5,
+          "winsCount": 4,
+          "winsNormalCount": 4,
+          "winsExtraCount": 0,
+          "drawsCount": 0,
+          "lossesCount": 1,
+          "lossesNormalCount": 1,
+          "lossesExtraCount": 0,
+          "goalsFor": 35,
+          "goalsAgainst": 9,
+          "points": 8
+        },
+        "Chicago Blackhawks": {
+          "rank": 4,
           "matchesCount": 4,
           "winsCount": 3,
           "winsNormalCount": 3,
@@ -238,26 +248,54 @@
           "lossesCount": 1,
           "lossesNormalCount": 1,
           "lossesExtraCount": 0,
-          "goalsFor": 22,
-          "goalsAgainst": 8,
+          "goalsFor": 29,
+          "goalsAgainst": 7,
           "points": 6
         },
-        "Chicago Blackhawks": {
-          "rank": 4,
-          "matchesCount": 3,
+        "Edmonton Oilers": {
+          "rank": 5,
+          "matchesCount": 4,
           "winsCount": 2,
           "winsNormalCount": 2,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 1,
+          "lossesCount": 2,
           "lossesNormalCount": 1,
-          "lossesExtraCount": 0,
+          "lossesExtraCount": 1,
+          "goalsFor": 25,
+          "goalsAgainst": 9,
+          "points": 5
+        },
+        "Vancouver Canucks": {
+          "rank": 6,
+          "matchesCount": 4,
+          "winsCount": 2,
+          "winsNormalCount": 2,
+          "winsExtraCount": 0,
+          "drawsCount": 0,
+          "lossesCount": 2,
+          "lossesNormalCount": 1,
+          "lossesExtraCount": 1,
           "goalsFor": 11,
           "goalsAgainst": 7,
+          "points": 5
+        },
+        "Los Angeles Kings": {
+          "rank": 7,
+          "matchesCount": 4,
+          "winsCount": 2,
+          "winsNormalCount": 1,
+          "winsExtraCount": 1,
+          "drawsCount": 0,
+          "lossesCount": 2,
+          "lossesNormalCount": 2,
+          "lossesExtraCount": 0,
+          "goalsFor": 12,
+          "goalsAgainst": 12,
           "points": 4
         },
         "Minnesota Wild": {
-          "rank": 5,
+          "rank": 8,
           "matchesCount": 3,
           "winsCount": 2,
           "winsNormalCount": 2,
@@ -270,64 +308,36 @@
           "goalsAgainst": 6,
           "points": 4
         },
-        "Edmonton Oilers": {
-          "rank": 6,
-          "matchesCount": 3,
-          "winsCount": 2,
-          "winsNormalCount": 2,
-          "winsExtraCount": 0,
-          "drawsCount": 0,
-          "lossesCount": 1,
-          "lossesNormalCount": 1,
-          "lossesExtraCount": 0,
-          "goalsFor": 23,
-          "goalsAgainst": 6,
-          "points": 4
-        },
-        "Los Angeles Kings": {
-          "rank": 7,
-          "matchesCount": 3,
+        "Arizona Coyotes": {
+          "rank": 9,
+          "matchesCount": 4,
           "winsCount": 2,
           "winsNormalCount": 1,
           "winsExtraCount": 1,
           "drawsCount": 0,
-          "lossesCount": 1,
-          "lossesNormalCount": 1,
+          "lossesCount": 2,
+          "lossesNormalCount": 2,
           "lossesExtraCount": 0,
-          "goalsFor": 10,
-          "goalsAgainst": 7,
+          "goalsFor": 12,
+          "goalsAgainst": 14,
           "points": 4
         },
-        "Vancouver Canucks": {
-          "rank": 8,
-          "matchesCount": 3,
-          "winsCount": 1,
-          "winsNormalCount": 1,
-          "winsExtraCount": 0,
-          "drawsCount": 0,
-          "lossesCount": 2,
-          "lossesNormalCount": 1,
-          "lossesExtraCount": 1,
-          "goalsFor": 9,
-          "goalsAgainst": 6,
-          "points": 3
-        },
         "Winnipeg Jets": {
-          "rank": 9,
-          "matchesCount": 4,
+          "rank": 10,
+          "matchesCount": 5,
           "winsCount": 1,
           "winsNormalCount": 1,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 3,
-          "lossesNormalCount": 3,
+          "lossesCount": 4,
+          "lossesNormalCount": 4,
           "lossesExtraCount": 0,
-          "goalsFor": 7,
-          "goalsAgainst": 16,
+          "goalsFor": 8,
+          "goalsAgainst": 18,
           "points": 2
         },
         "Dallas Stars": {
-          "rank": 10,
+          "rank": 11,
           "matchesCount": 2,
           "winsCount": 1,
           "winsNormalCount": 1,
@@ -340,60 +350,46 @@
           "goalsAgainst": 3,
           "points": 2
         },
-        "Arizona Coyotes": {
-          "rank": 11,
-          "matchesCount": 3,
-          "winsCount": 1,
-          "winsNormalCount": 1,
-          "winsExtraCount": 0,
-          "drawsCount": 0,
-          "lossesCount": 2,
-          "lossesNormalCount": 2,
-          "lossesExtraCount": 0,
-          "goalsFor": 9,
-          "goalsAgainst": 12,
-          "points": 2
-        },
         "St. Louis Blues": {
           "rank": 12,
-          "matchesCount": 3,
+          "matchesCount": 4,
           "winsCount": 1,
           "winsNormalCount": 1,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 2,
-          "lossesNormalCount": 2,
+          "lossesCount": 3,
+          "lossesNormalCount": 3,
           "lossesExtraCount": 0,
-          "goalsFor": 19,
-          "goalsAgainst": 10,
+          "goalsFor": 21,
+          "goalsAgainst": 15,
           "points": 2
         },
         "San Jose Sharks": {
           "rank": 13,
-          "matchesCount": 4,
+          "matchesCount": 5,
           "winsCount": 0,
           "winsNormalCount": 0,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 4,
-          "lossesNormalCount": 4,
+          "lossesCount": 5,
+          "lossesNormalCount": 5,
           "lossesExtraCount": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 20,
+          "goalsFor": 3,
+          "goalsAgainst": 33,
           "points": 0
         },
         "Nashville Predators": {
           "rank": 14,
-          "matchesCount": 4,
+          "matchesCount": 5,
           "winsCount": 0,
           "winsNormalCount": 0,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 4,
-          "lossesNormalCount": 4,
+          "lossesCount": 5,
+          "lossesNormalCount": 5,
           "lossesExtraCount": 0,
           "goalsFor": 0,
-          "goalsAgainst": 60,
+          "goalsAgainst": 78,
           "points": 0
         }
       }
@@ -412,25 +408,25 @@
             "Chicago Blackhawks": [
               "3:2"
             ],
-            "Minnesota Wild": [
-              "4:1"
-            ],
             "Edmonton Oilers": [
-              ":"
-            ],
-            "Los Angeles Kings": [
               ":"
             ],
             "Vancouver Canucks": [
               "3:2"
             ],
+            "Los Angeles Kings": [
+              "5:2"
+            ],
+            "Minnesota Wild": [
+              "4:1"
+            ],
+            "Arizona Coyotes": [
+              ":"
+            ],
             "Winnipeg Jets": [
               ":"
             ],
             "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
               ":"
             ],
             "St. Louis Blues": [
@@ -443,8 +439,8 @@
               ":"
             ]
           },
-          "points": 8,
-          "score": "17:7",
+          "points": 10,
+          "score": "22:9",
           "rank": 1
         },
         "Vegas Golden Knights": {
@@ -459,16 +455,19 @@
             "Chicago Blackhawks": [
               ":"
             ],
-            "Minnesota Wild": [
-              ":"
-            ],
             "Edmonton Oilers": [
               "6:2"
+            ],
+            "Vancouver Canucks": [
+              ":"
             ],
             "Los Angeles Kings": [
               ":"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
+              ":"
+            ],
+            "Arizona Coyotes": [
               ":"
             ],
             "Winnipeg Jets": [
@@ -477,11 +476,8 @@
             "Dallas Stars": [
               ":"
             ],
-            "Arizona Coyotes": [
-              ":"
-            ],
             "St. Louis Blues": [
-              ":"
+              "5:2"
             ],
             "San Jose Sharks": [
               "4:1"
@@ -490,8 +486,8 @@
               ":"
             ]
           },
-          "points": 6,
-          "score": "17:4",
+          "points": 8,
+          "score": "22:6",
           "rank": 2
         },
         "Anaheim Ducks": {
@@ -506,16 +502,19 @@
             "Chicago Blackhawks": [
               ":"
             ],
-            "Minnesota Wild": [
+            "Edmonton Oilers": [
               ":"
             ],
-            "Edmonton Oilers": [
+            "Vancouver Canucks": [
               ":"
             ],
             "Los Angeles Kings": [
               ":"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
+              ":"
+            ],
+            "Arizona Coyotes": [
               ":"
             ],
             "Winnipeg Jets": [
@@ -524,21 +523,18 @@
             "Dallas Stars": [
               "3:0"
             ],
-            "Arizona Coyotes": [
-              ":"
-            ],
             "St. Louis Blues": [
               ":"
             ],
             "San Jose Sharks": [
-              ":"
+              "13:1"
             ],
             "Nashville Predators": [
               "15:0"
             ]
           },
-          "points": 6,
-          "score": "22:8",
+          "points": 8,
+          "score": "35:9",
           "rank": 3
         },
         "Chicago Blackhawks": {
@@ -553,72 +549,25 @@
               ":"
             ],
             "Chicago Blackhawks": [],
-            "Minnesota Wild": [
+            "Edmonton Oilers": [
               ":"
             ],
-            "Edmonton Oilers": [
+            "Vancouver Canucks": [
               ":"
             ],
             "Los Angeles Kings": [
               "4:3"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
+              ":"
+            ],
+            "Arizona Coyotes": [
               ":"
             ],
             "Winnipeg Jets": [
               "5:1"
             ],
             "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
-              ":"
-            ],
-            "St. Louis Blues": [
-              ":"
-            ],
-            "San Jose Sharks": [
-              ":"
-            ],
-            "Nashville Predators": [
-              ":"
-            ]
-          },
-          "points": 4,
-          "score": "11:7",
-          "rank": 4
-        },
-        "Minnesota Wild": {
-          "opponents": {
-            "Calgary Flames": [
-              "1:4"
-            ],
-            "Vegas Golden Knights": [
-              ":"
-            ],
-            "Anaheim Ducks": [
-              ":"
-            ],
-            "Chicago Blackhawks": [
-              ":"
-            ],
-            "Minnesota Wild": [],
-            "Edmonton Oilers": [
-              ":"
-            ],
-            "Los Angeles Kings": [
-              ":"
-            ],
-            "Vancouver Canucks": [
-              ":"
-            ],
-            "Winnipeg Jets": [
-              "6:2"
-            ],
-            "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
               ":"
             ],
             "St. Louis Blues": [
@@ -631,9 +580,9 @@
               "18:0"
             ]
           },
-          "points": 4,
-          "score": "25:6",
-          "rank": 5
+          "points": 6,
+          "score": "29:7",
+          "rank": 4
         },
         "Edmonton Oilers": {
           "opponents": {
@@ -649,23 +598,23 @@
             "Chicago Blackhawks": [
               ":"
             ],
-            "Minnesota Wild": [
+            "Edmonton Oilers": [],
+            "Vancouver Canucks": [
               ":"
             ],
-            "Edmonton Oilers": [],
             "Los Angeles Kings": [
               ":"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
               ":"
+            ],
+            "Arizona Coyotes": [
+              "2:3 pr."
             ],
             "Winnipeg Jets": [
               ":"
             ],
             "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
               ":"
             ],
             "St. Louis Blues": [
@@ -678,56 +627,9 @@
               "12:0"
             ]
           },
-          "points": 4,
-          "score": "23:6",
-          "rank": 6
-        },
-        "Los Angeles Kings": {
-          "opponents": {
-            "Calgary Flames": [
-              ":"
-            ],
-            "Vegas Golden Knights": [
-              ":"
-            ],
-            "Anaheim Ducks": [
-              ":"
-            ],
-            "Chicago Blackhawks": [
-              "3:4"
-            ],
-            "Minnesota Wild": [
-              ":"
-            ],
-            "Edmonton Oilers": [
-              ":"
-            ],
-            "Los Angeles Kings": [],
-            "Vancouver Canucks": [
-              "2:1 pr."
-            ],
-            "Winnipeg Jets": [
-              ":"
-            ],
-            "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
-              "5:2"
-            ],
-            "St. Louis Blues": [
-              ":"
-            ],
-            "San Jose Sharks": [
-              ":"
-            ],
-            "Nashville Predators": [
-              ":"
-            ]
-          },
-          "points": 4,
-          "score": "10:7",
-          "rank": 7
+          "points": 5,
+          "score": "25:9",
+          "rank": 5
         },
         "Vancouver Canucks": {
           "opponents": {
@@ -743,74 +645,27 @@
             "Chicago Blackhawks": [
               ":"
             ],
-            "Minnesota Wild": [
-              ":"
-            ],
             "Edmonton Oilers": [
               ":"
             ],
+            "Vancouver Canucks": [],
             "Los Angeles Kings": [
               "1:2 pr."
             ],
-            "Vancouver Canucks": [],
-            "Winnipeg Jets": [
-              ":"
-            ],
-            "Dallas Stars": [
+            "Minnesota Wild": [
               ":"
             ],
             "Arizona Coyotes": [
               "6:1"
             ],
-            "St. Louis Blues": [
-              ":"
+            "Winnipeg Jets": [
+              "2:1"
             ],
-            "San Jose Sharks": [
-              ":"
-            ],
-            "Nashville Predators": [
-              ":"
-            ]
-          },
-          "points": 3,
-          "score": "9:6",
-          "rank": 8
-        },
-        "Winnipeg Jets": {
-          "opponents": {
-            "Calgary Flames": [
-              ":"
-            ],
-            "Vegas Golden Knights": [
-              ":"
-            ],
-            "Anaheim Ducks": [
-              "1:3"
-            ],
-            "Chicago Blackhawks": [
-              "1:5"
-            ],
-            "Minnesota Wild": [
-              "2:6"
-            ],
-            "Edmonton Oilers": [
-              ":"
-            ],
-            "Los Angeles Kings": [
-              ":"
-            ],
-            "Vancouver Canucks": [
-              ":"
-            ],
-            "Winnipeg Jets": [],
             "Dallas Stars": [
               ":"
             ],
-            "Arizona Coyotes": [
-              ":"
-            ],
             "St. Louis Blues": [
-              "3:2"
+              ":"
             ],
             "San Jose Sharks": [
               ":"
@@ -819,56 +674,103 @@
               ":"
             ]
           },
-          "points": 2,
-          "score": "7:16",
-          "rank": 9
+          "points": 5,
+          "score": "11:7",
+          "rank": 6
         },
-        "Dallas Stars": {
+        "Los Angeles Kings": {
           "opponents": {
             "Calgary Flames": [
-              ":"
+              "2:5"
             ],
             "Vegas Golden Knights": [
               ":"
             ],
             "Anaheim Ducks": [
-              "0:3"
+              ":"
             ],
             "Chicago Blackhawks": [
-              ":"
-            ],
-            "Minnesota Wild": [
-              ":"
+              "3:4"
             ],
             "Edmonton Oilers": [
               ":"
             ],
-            "Los Angeles Kings": [
+            "Vancouver Canucks": [
+              "2:1 pr."
+            ],
+            "Los Angeles Kings": [],
+            "Minnesota Wild": [
               ":"
             ],
-            "Vancouver Canucks": [
-              ":"
+            "Arizona Coyotes": [
+              "5:2"
             ],
             "Winnipeg Jets": [
               ":"
             ],
-            "Dallas Stars": [],
-            "Arizona Coyotes": [
+            "Dallas Stars": [
               ":"
             ],
             "St. Louis Blues": [
               ":"
             ],
             "San Jose Sharks": [
-              "1:0"
+              ":"
             ],
             "Nashville Predators": [
               ":"
             ]
           },
-          "points": 2,
-          "score": "1:3",
-          "rank": 10
+          "points": 4,
+          "score": "12:12",
+          "rank": 7
+        },
+        "Minnesota Wild": {
+          "opponents": {
+            "Calgary Flames": [
+              "1:4"
+            ],
+            "Vegas Golden Knights": [
+              ":"
+            ],
+            "Anaheim Ducks": [
+              ":"
+            ],
+            "Chicago Blackhawks": [
+              ":"
+            ],
+            "Edmonton Oilers": [
+              ":"
+            ],
+            "Vancouver Canucks": [
+              ":"
+            ],
+            "Los Angeles Kings": [
+              ":"
+            ],
+            "Minnesota Wild": [],
+            "Arizona Coyotes": [
+              ":"
+            ],
+            "Winnipeg Jets": [
+              "6:2"
+            ],
+            "Dallas Stars": [
+              ":"
+            ],
+            "St. Louis Blues": [
+              ":"
+            ],
+            "San Jose Sharks": [
+              ":"
+            ],
+            "Nashville Predators": [
+              "18:0"
+            ]
+          },
+          "points": 4,
+          "score": "25:6",
+          "rank": 8
         },
         "Arizona Coyotes": {
           "opponents": {
@@ -884,25 +786,25 @@
             "Chicago Blackhawks": [
               ":"
             ],
-            "Minnesota Wild": [
-              ":"
-            ],
             "Edmonton Oilers": [
-              ":"
-            ],
-            "Los Angeles Kings": [
-              "2:5"
+              "3:2 pr."
             ],
             "Vancouver Canucks": [
               "1:6"
             ],
+            "Los Angeles Kings": [
+              "2:5"
+            ],
+            "Minnesota Wild": [
+              ":"
+            ],
+            "Arizona Coyotes": [],
             "Winnipeg Jets": [
               ":"
             ],
             "Dallas Stars": [
               ":"
             ],
-            "Arizona Coyotes": [],
             "St. Louis Blues": [
               ":"
             ],
@@ -913,8 +815,102 @@
               ":"
             ]
           },
+          "points": 4,
+          "score": "12:14",
+          "rank": 9
+        },
+        "Winnipeg Jets": {
+          "opponents": {
+            "Calgary Flames": [
+              ":"
+            ],
+            "Vegas Golden Knights": [
+              ":"
+            ],
+            "Anaheim Ducks": [
+              "1:3"
+            ],
+            "Chicago Blackhawks": [
+              "1:5"
+            ],
+            "Edmonton Oilers": [
+              ":"
+            ],
+            "Vancouver Canucks": [
+              "1:2"
+            ],
+            "Los Angeles Kings": [
+              ":"
+            ],
+            "Minnesota Wild": [
+              "2:6"
+            ],
+            "Arizona Coyotes": [
+              ":"
+            ],
+            "Winnipeg Jets": [],
+            "Dallas Stars": [
+              ":"
+            ],
+            "St. Louis Blues": [
+              "3:2"
+            ],
+            "San Jose Sharks": [
+              ":"
+            ],
+            "Nashville Predators": [
+              ":"
+            ]
+          },
           "points": 2,
-          "score": "9:12",
+          "score": "8:18",
+          "rank": 10
+        },
+        "Dallas Stars": {
+          "opponents": {
+            "Calgary Flames": [
+              ":"
+            ],
+            "Vegas Golden Knights": [
+              ":"
+            ],
+            "Anaheim Ducks": [
+              "0:3"
+            ],
+            "Chicago Blackhawks": [
+              ":"
+            ],
+            "Edmonton Oilers": [
+              ":"
+            ],
+            "Vancouver Canucks": [
+              ":"
+            ],
+            "Los Angeles Kings": [
+              ":"
+            ],
+            "Minnesota Wild": [
+              ":"
+            ],
+            "Arizona Coyotes": [
+              ":"
+            ],
+            "Winnipeg Jets": [
+              ":"
+            ],
+            "Dallas Stars": [],
+            "St. Louis Blues": [
+              ":"
+            ],
+            "San Jose Sharks": [
+              "1:0"
+            ],
+            "Nashville Predators": [
+              ":"
+            ]
+          },
+          "points": 2,
+          "score": "1:3",
           "rank": 11
         },
         "St. Louis Blues": {
@@ -923,7 +919,7 @@
               "2:7"
             ],
             "Vegas Golden Knights": [
-              ":"
+              "2:5"
             ],
             "Anaheim Ducks": [
               ":"
@@ -931,25 +927,25 @@
             "Chicago Blackhawks": [
               ":"
             ],
-            "Minnesota Wild": [
+            "Edmonton Oilers": [
               ":"
             ],
-            "Edmonton Oilers": [
+            "Vancouver Canucks": [
               ":"
             ],
             "Los Angeles Kings": [
               ":"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
+              ":"
+            ],
+            "Arizona Coyotes": [
               ":"
             ],
             "Winnipeg Jets": [
               "2:3"
             ],
             "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
               ":"
             ],
             "St. Louis Blues": [],
@@ -961,7 +957,7 @@
             ]
           },
           "points": 2,
-          "score": "19:10",
+          "score": "21:15",
           "rank": 12
         },
         "San Jose Sharks": {
@@ -973,31 +969,31 @@
               "1:4"
             ],
             "Anaheim Ducks": [
-              ":"
+              "1:13"
             ],
             "Chicago Blackhawks": [
-              ":"
-            ],
-            "Minnesota Wild": [
               ":"
             ],
             "Edmonton Oilers": [
               "0:9"
             ],
+            "Vancouver Canucks": [
+              ":"
+            ],
             "Los Angeles Kings": [
               ":"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
               ":"
+            ],
+            "Arizona Coyotes": [
+              "1:6"
             ],
             "Winnipeg Jets": [
               ":"
             ],
             "Dallas Stars": [
               "0:1"
-            ],
-            "Arizona Coyotes": [
-              "1:6"
             ],
             "St. Louis Blues": [
               ":"
@@ -1008,7 +1004,7 @@
             ]
           },
           "points": 0,
-          "score": "2:20",
+          "score": "3:33",
           "rank": 13
         },
         "Nashville Predators": {
@@ -1023,27 +1019,27 @@
               "0:15"
             ],
             "Chicago Blackhawks": [
-              ":"
-            ],
-            "Minnesota Wild": [
               "0:18"
             ],
             "Edmonton Oilers": [
               "0:12"
             ],
+            "Vancouver Canucks": [
+              ":"
+            ],
             "Los Angeles Kings": [
               ":"
             ],
-            "Vancouver Canucks": [
+            "Minnesota Wild": [
+              "0:18"
+            ],
+            "Arizona Coyotes": [
               ":"
             ],
             "Winnipeg Jets": [
               ":"
             ],
             "Dallas Stars": [
-              ":"
-            ],
-            "Arizona Coyotes": [
               ":"
             ],
             "St. Louis Blues": [
@@ -1055,7 +1051,7 @@
             "Nashville Predators": []
           },
           "points": 0,
-          "score": "0:60",
+          "score": "0:78",
           "rank": 14
         }
       }
@@ -1643,42 +1639,144 @@
         "Edmonton Oilers",
         "Arizona Coyotes"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          2,
+          3
+        ],
+        "scorers": [
+          {
+            "Tudor Anghel": 1,
+            "Nathan Denney": 1
+          },
+          {
+            "Sebastián Maciá": 1,
+            "Kristián Hostinský": 1,
+            "Georg Seestrandt ": 1
+          }
+        ],
+        "type": "pr."
+      }
     },
     {
       "teams": [
         "Calgary Flames",
         "Los Angeles Kings"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          5,
+          2
+        ],
+        "scorers": [
+          {
+            "Dante Tineo": 1,
+            "Gregory Jeker": 1,
+            "Kensaku Funabashi": 3
+          },
+          {
+            "Radoslav Bodnár": 1,
+            "Štefan Krompáč": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "San Jose Sharks",
         "Anaheim Ducks"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          1,
+          13
+        ],
+        "scorers": [
+          {
+            "Miikka Metsäkumpu": 1
+          },
+          {
+            "Antonín Zeman": 2,
+            "Martin Minár": 1,
+            "Milan Pukalovič": 3,
+            "Joseph Callan": 3,
+            "Mohammad Berger": 3,
+            "Ayden Wakely": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Winnipeg Jets",
         "Vancouver Canucks"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          1,
+          2
+        ],
+        "scorers": [
+          {
+            "Jaromil Buček": 1
+          },
+          {
+            "Michal Bartoš": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Vegas Golden Knights",
         "St. Louis Blues"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          5,
+          2
+        ],
+        "scorers": [
+          {
+            "Martyn Hills": 1,
+            "Josef Heger": 1,
+            "Erkki Perttuli": 1,
+            "Naganori Iemochi": 1,
+            "Christopher Bigun": 1
+          },
+          {
+            "Max Hanson": 1,
+            "Oleg Přikryl": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Nashville Predators",
         "Chicago Blackhawks"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          0,
+          18
+        ],
+        "scorers": [
+          {},
+          {
+            "Marin Rebreanu": 2,
+            "Petr Khotunskiy": 5,
+            "Gerhard Jurašek": 4,
+            "Juan Pablo Trujillo": 2,
+            "Germán Salas": 2
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
