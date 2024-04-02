@@ -9,30 +9,42 @@
     "groupsCount": 1,
     "teamsCount": 14,
     "fieldsCount": 7,
-    "playersCount": 103,
+    "playersCount": 106,
     "matchesCount": 91,
-    "goalsCount": 220,
-    "averageGoalsInMatch": 2.4175824175824174
+    "goalsCount": 290,
+    "averageGoalsInMatch": 3.1868131868131866
   },
   "winners": {
     "teams": {
-      "1": "New York Islanders",
-      "2": "New Jersey Devils",
-      "3": "Columbus Blue Jackets"
+      "1": "New Jersey Devils",
+      "2": "Columbus Blue Jackets",
+      "3": "Carolina Hurricanes"
     },
     "scorers": {
+      "9": [
+        {
+          "player": "Roman Kuvakin",
+          "team": "New York Islanders"
+        }
+      ],
+      "8": [
+        {
+          "player": "Edgar Arganaraz",
+          "team": "Toronto Maple Leafs"
+        }
+      ],
       "7": [
         {
           "player": "David Alejandro Cruz",
           "team": "New York Rangers"
         },
         {
-          "player": "Roman Kuvakin",
+          "player": "Ralf Braun",
           "team": "New York Islanders"
         },
         {
-          "player": "Ralf Braun",
-          "team": "New York Islanders"
+          "player": "Alexandre Gall",
+          "team": "Montreal Canadiens"
         },
         {
           "player": "René Guerrero",
@@ -41,35 +53,56 @@
       ]
     },
     "goalkeeper": {
-      "3": [
+      "4": [
         "Carolina Hurricanes"
       ]
     }
   },
   "teamPlayers": {
-    "New York Rangers": {
-      "David Alejandro Cruz": 7,
-      "Júlio Itaberá": 4,
-      "Andrés Santos": 4,
-      "Armando Carrión": 3,
-      "Francisco Barón": 2,
-      "Hugo Grijalba": 1
-    },
     "New York Islanders": {
-      "Roman Kuvakin": 7,
+      "Roman Kuvakin": 9,
       "Ralf Braun": 7,
       "Hernán Colombres": 4,
       "Tomáš Křeček": 2,
       "Sertai Kairbekov": 2,
       "Alberico Sorbino": 2,
-      "Bert Picavet": 1,
-      " Dominik Jíra": 0
+      " Dominik Jíra": 1,
+      "Bert Picavet": 1
+    },
+    "Toronto Maple Leafs": {
+      "Edgar Arganaraz": 8,
+      "Václav Polák": 6,
+      " David Svoboda": 4,
+      "Tālivaldis Stiebriņš": 2,
+      "Jaroslav Kasal": 1,
+      "Cedric Jorritsma": 1,
+      "Michal Šimáček": 1,
+      "Patrik Kocourek": 1,
+      "Kryštof Mrázek": 0,
+      " Pankrác Cihlář": 0
+    },
+    "New York Rangers": {
+      "David Alejandro Cruz": 7,
+      "Andrés Santos": 5,
+      "Júlio Itaberá": 4,
+      "Armando Carrión": 3,
+      "Francisco Barón": 2,
+      "Hugo Grijalba": 1
+    },
+    "Montreal Canadiens": {
+      "Alexandre Gall": 7,
+      "Ādams Vedējs": 2,
+      "Martin Zahradník": 1,
+      "Enrique Sanabria": 1,
+      "Zoran Pihler": 1,
+      "Agris Fadejevs": 0,
+      "Ian Woodfield": 0
     },
     "Carolina Hurricanes": {
       "René Guerrero": 7,
+      "Fynn Blauschek": 5,
+      "Andrej Pavlíčka": 5,
       "Oleg Petrichenko": 4,
-      "Fynn Blauschek": 4,
-      "Andrej Pavlíčka": 4,
       "Reino Ylimartimo": 4,
       " Pascal Kerschbaumer": 3,
       "Cayetano Santander": 2,
@@ -80,99 +113,81 @@
       "Zoran Grozdanović": 6,
       "Vojtěch Skalický": 4,
       "Eli Argov": 2,
-      "Hermanis Makarovs": 1,
+      "Hermanis Makarovs": 2,
       "Naum Ergolskiy": 1,
       "Alexandre Kaiser": 1,
       "David Sierra": 1,
+      "Vlastimil Vargovčák": 1,
       " Felix Baer": 0,
       "Alessandro Herrmann": 0
     },
-    "Toronto Maple Leafs": {
-      "Edgar Arganaraz": 6,
-      "Václav Polák": 5,
-      " David Svoboda": 3,
-      "Tālivaldis Stiebriņš": 2,
-      "Jaroslav Kasal": 1,
-      "Cedric Jorritsma": 1,
-      "Michal Šimáček": 1,
-      "Patrik Kocourek": 1,
-      "Kryštof Mrázek": 0,
-      " Pankrác Cihlář": 0
-    },
     "Columbus Blue Jackets": {
+      "Świętobor Trochimiuk": 6,
+      "Nathan Vansteenkiste ": 6,
       "Rosendo Estrada": 5,
-      "Nathan Vansteenkiste ": 5,
-      "Świętobor Trochimiuk": 4,
-      "Kijuro Komatsu": 1,
-      "Roko Kopić": 1,
-      "Licínio Caires": 1,
-      "Víctor Madariaga": 0
+      "Roko Kopić": 4,
+      "Kijuro Komatsu": 3,
+      "Víctor Madariaga": 1,
+      "Licínio Caires": 1
     },
     "Tampa Bay Lightning": {
-      "Michal Studnička": 5,
-      "Karel John": 5,
+      "Michal Studnička": 6,
+      "Karel John": 6,
+      " Adrián Izar": 5,
+      "Tomáš Konečný": 4,
       "Martin Špaňo": 4,
-      " Adrián Izar": 4,
-      "Tomáš Konečný": 3,
       "Ján Gonos": 3
     },
-    "Philadelphia Flyers": {
-      "Daniel Němec": 4,
-      "Mathis Wright": 3,
-      "Jan Kroupa": 3,
-      "Eduard Sverchevskiy": 3,
-      "Patrice Ryan": 2,
-      "Dziam\u0027jan Zmitrenia": 2,
-      "Philippe Meagher": 0
-    },
-    " Florida Panthers": {
-      "Jason Pratt": 3,
-      "Jakub Šourek": 2,
-      "Deane Quay": 1,
-      "Mats Lindmark": 1,
-      "Symeon Żuchowski": 0,
-      "Petr Doubek": 0,
-      "Adam Bedford": 0
-    },
     "New Jersey Devils": {
-      "Filip Karlsson": 3,
-      "Gustavo Montes": 3,
+      "Filip Karlsson": 5,
+      "Gustavo Montes": 5,
+      "Klaus Claes": 3,
+      "Mario Cisneros": 3,
       "Yanaki Botev": 2,
-      "Klaus Claes": 2,
-      "Mario Cisneros": 2,
       "Elar Torn": 2,
       "Alfréd Kasanický": 1,
       "Vince Rubin": 1,
       "Eduardo Arellanos": 1,
+      "Iván Rodríguez": 1,
       "Grujo Zhivkov": 0,
       "Valtteri Maurinen": 0,
       "Zlatko Žarković": 0,
       "Jozef Mlej": 0
     },
+    "Philadelphia Flyers": {
+      "Mathis Wright": 4,
+      "Daniel Němec": 4,
+      "Patrice Ryan": 3,
+      "Jan Kroupa": 3,
+      "Eduard Sverchevskiy": 3,
+      "Dziam\u0027jan Zmitrenia": 2,
+      "Philippe Meagher": 0
+    },
+    " Florida Panthers": {
+      "Adam Bedford": 4,
+      "Jason Pratt": 3,
+      "Symeon Żuchowski": 2,
+      "Jakub Šourek": 2,
+      "Deane Quay": 1,
+      "Mats Lindmark": 1,
+      "Petr Doubek": 0
+    },
     "Boston Bruins": {
+      "Filip Havlice": 3,
       "Orlando Pozo": 2,
-      "Filip Havlice": 1,
+      " Adam Cibula": 2,
+      "Horác Dobák": 1,
       "Róbert Čepček": 1,
-      "Marcelo Lama": 1,
-      "Horác Dobák": 0,
-      " Adam Cibula": 0
+      "Marcelo Lama": 1
     },
     "Ottawa Senators": {
       "Božidar Vancák": 2,
+      "John Bathurst": 2,
       "Sigis Steiblys": 2,
-      "John Bathurst": 1,
+      "Dylan Ralph": 1,
       "Sergey Neumytov": 1,
       "Roberto Konrad": 0,
-      "Dylan Ralph": 0,
       "Desmond Drake": 0
-    },
-    "Montreal Canadiens": {
-      "Zoran Pihler": 1,
-      "Martin Zahradník": 0,
-      "Enrique Sanabria": 0,
-      "Agris Fadejevs": 0,
-      "Ādams Vedējs": 0,
-      "Ian Woodfield": 0
     },
     "Buffalo Sabres": {
       " Henri Sagi": 0,
@@ -182,8 +197,36 @@
   "tables": {
     "classicTable": {
       "Teams": {
-        "New York Islanders": {
+        "New Jersey Devils": {
           "rank": 1,
+          "matchesCount": 5,
+          "winsCount": 5,
+          "winsNormalCount": 4,
+          "winsExtraCount": 1,
+          "drawsCount": 0,
+          "lossesCount": 0,
+          "lossesNormalCount": 0,
+          "lossesExtraCount": 0,
+          "goalsFor": 26,
+          "goalsAgainst": 14,
+          "points": 10
+        },
+        "Columbus Blue Jackets": {
+          "rank": 2,
+          "matchesCount": 5,
+          "winsCount": 4,
+          "winsNormalCount": 3,
+          "winsExtraCount": 1,
+          "drawsCount": 0,
+          "lossesCount": 1,
+          "lossesNormalCount": 0,
+          "lossesExtraCount": 1,
+          "goalsFor": 32,
+          "goalsAgainst": 15,
+          "points": 9
+        },
+        "Carolina Hurricanes": {
+          "rank": 3,
           "matchesCount": 4,
           "winsCount": 4,
           "winsNormalCount": 4,
@@ -192,109 +235,81 @@
           "lossesCount": 0,
           "lossesNormalCount": 0,
           "lossesExtraCount": 0,
-          "goalsFor": 25,
-          "goalsAgainst": 6,
+          "goalsFor": 35,
+          "goalsAgainst": 4,
           "points": 8
-        },
-        "New Jersey Devils": {
-          "rank": 2,
-          "matchesCount": 4,
-          "winsCount": 4,
-          "winsNormalCount": 3,
-          "winsExtraCount": 1,
-          "drawsCount": 0,
-          "lossesCount": 0,
-          "lossesNormalCount": 0,
-          "lossesExtraCount": 0,
-          "goalsFor": 17,
-          "goalsAgainst": 9,
-          "points": 8
-        },
-        "Columbus Blue Jackets": {
-          "rank": 3,
-          "matchesCount": 4,
-          "winsCount": 3,
-          "winsNormalCount": 2,
-          "winsExtraCount": 1,
-          "drawsCount": 0,
-          "lossesCount": 1,
-          "lossesNormalCount": 0,
-          "lossesExtraCount": 1,
-          "goalsFor": 23,
-          "goalsAgainst": 12,
-          "points": 7
-        },
-        "Carolina Hurricanes": {
-          "rank": 4,
-          "matchesCount": 3,
-          "winsCount": 3,
-          "winsNormalCount": 3,
-          "winsExtraCount": 0,
-          "drawsCount": 0,
-          "lossesCount": 0,
-          "lossesNormalCount": 0,
-          "lossesExtraCount": 0,
-          "goalsFor": 32,
-          "goalsAgainst": 3,
-          "points": 6
         },
         "Tampa Bay Lightning": {
+          "rank": 4,
+          "matchesCount": 5,
+          "winsCount": 4,
+          "winsNormalCount": 4,
+          "winsExtraCount": 0,
+          "drawsCount": 0,
+          "lossesCount": 1,
+          "lossesNormalCount": 1,
+          "lossesExtraCount": 0,
+          "goalsFor": 28,
+          "goalsAgainst": 10,
+          "points": 8
+        },
+        "New York Islanders": {
           "rank": 5,
-          "matchesCount": 4,
-          "winsCount": 3,
-          "winsNormalCount": 3,
+          "matchesCount": 5,
+          "winsCount": 4,
+          "winsNormalCount": 4,
           "winsExtraCount": 0,
           "drawsCount": 0,
           "lossesCount": 1,
           "lossesNormalCount": 1,
           "lossesExtraCount": 0,
-          "goalsFor": 24,
-          "goalsAgainst": 8,
-          "points": 6
-        },
-        "New York Rangers": {
-          "rank": 6,
-          "matchesCount": 4,
-          "winsCount": 3,
-          "winsNormalCount": 3,
-          "winsExtraCount": 0,
-          "drawsCount": 0,
-          "lossesCount": 1,
-          "lossesNormalCount": 1,
-          "lossesExtraCount": 0,
-          "goalsFor": 22,
-          "goalsAgainst": 8,
-          "points": 6
-        },
-        "Philadelphia Flyers": {
-          "rank": 7,
-          "matchesCount": 3,
-          "winsCount": 2,
-          "winsNormalCount": 1,
-          "winsExtraCount": 1,
-          "drawsCount": 0,
-          "lossesCount": 1,
-          "lossesNormalCount": 1,
-          "lossesExtraCount": 0,
-          "goalsFor": 19,
-          "goalsAgainst": 8,
-          "points": 4
+          "goalsFor": 28,
+          "goalsAgainst": 15,
+          "points": 8
         },
         "Toronto Maple Leafs": {
-          "rank": 8,
-          "matchesCount": 4,
-          "winsCount": 2,
-          "winsNormalCount": 2,
+          "rank": 6,
+          "matchesCount": 5,
+          "winsCount": 3,
+          "winsNormalCount": 3,
           "winsExtraCount": 0,
           "drawsCount": 0,
           "lossesCount": 2,
           "lossesNormalCount": 2,
           "lossesExtraCount": 0,
-          "goalsFor": 22,
-          "goalsAgainst": 10,
+          "goalsFor": 28,
+          "goalsAgainst": 12,
+          "points": 6
+        },
+        "New York Rangers": {
+          "rank": 7,
+          "matchesCount": 5,
+          "winsCount": 3,
+          "winsNormalCount": 3,
+          "winsExtraCount": 0,
+          "drawsCount": 0,
+          "lossesCount": 2,
+          "lossesNormalCount": 2,
+          "lossesExtraCount": 0,
+          "goalsFor": 23,
+          "goalsAgainst": 11,
+          "points": 6
+        },
+        "Philadelphia Flyers": {
+          "rank": 8,
+          "matchesCount": 4,
+          "winsCount": 2,
+          "winsNormalCount": 1,
+          "winsExtraCount": 1,
+          "drawsCount": 0,
+          "lossesCount": 2,
+          "lossesNormalCount": 2,
+          "lossesExtraCount": 0,
+          "goalsFor": 21,
+          "goalsAgainst": 14,
           "points": 4
         },
-        "Washington Capitals": {
+        " Florida Panthers": {
           "rank": 9,
           "matchesCount": 4,
           "winsCount": 1,
@@ -304,90 +319,87 @@
           "lossesCount": 3,
           "lossesNormalCount": 2,
           "lossesExtraCount": 1,
-          "goalsFor": 16,
-          "goalsAgainst": 29,
+          "goalsFor": 19,
+          "goalsAgainst": 19,
           "points": 3
         },
-        " Florida Panthers": {
+        "Washington Capitals": {
           "rank": 10,
-          "matchesCount": 3,
-          "winsCount": 0,
-          "winsNormalCount": 0,
+          "matchesCount": 5,
+          "winsCount": 1,
+          "winsNormalCount": 1,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 3,
-          "lossesNormalCount": 2,
+          "lossesCount": 4,
+          "lossesNormalCount": 3,
           "lossesExtraCount": 1,
-          "goalsFor": 7,
-          "goalsAgainst": 16,
-          "points": 1
+          "goalsFor": 18,
+          "goalsAgainst": 33,
+          "points": 3
         },
         "Montreal Canadiens": {
           "rank": 11,
-          "matchesCount": 2,
-          "winsCount": 0,
-          "winsNormalCount": 0,
+          "matchesCount": 3,
+          "winsCount": 1,
+          "winsNormalCount": 1,
           "winsExtraCount": 0,
           "drawsCount": 0,
           "lossesCount": 2,
           "lossesNormalCount": 2,
           "lossesExtraCount": 0,
-          "goalsFor": 1,
+          "goalsFor": 12,
           "goalsAgainst": 11,
-          "points": 0
+          "points": 2
         },
         "Boston Bruins": {
           "rank": 12,
-          "matchesCount": 3,
+          "matchesCount": 4,
           "winsCount": 0,
           "winsNormalCount": 0,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 3,
-          "lossesNormalCount": 3,
+          "lossesCount": 4,
+          "lossesNormalCount": 4,
           "lossesExtraCount": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 25,
+          "goalsFor": 11,
+          "goalsAgainst": 34,
           "points": 0
         },
         "Ottawa Senators": {
           "rank": 13,
-          "matchesCount": 4,
+          "matchesCount": 5,
           "winsCount": 0,
           "winsNormalCount": 0,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 4,
-          "lossesNormalCount": 4,
+          "lossesCount": 5,
+          "lossesNormalCount": 5,
           "lossesExtraCount": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 36,
+          "goalsFor": 9,
+          "goalsAgainst": 48,
           "points": 0
         },
         "Buffalo Sabres": {
           "rank": 14,
-          "matchesCount": 4,
+          "matchesCount": 5,
           "winsCount": 0,
           "winsNormalCount": 0,
           "winsExtraCount": 0,
           "drawsCount": 0,
-          "lossesCount": 4,
-          "lossesNormalCount": 4,
+          "lossesCount": 5,
+          "lossesNormalCount": 5,
           "lossesExtraCount": 0,
           "goalsFor": 0,
-          "goalsAgainst": 39,
+          "goalsAgainst": 50,
           "points": 0
         }
       }
     },
     "crossTable": {
       "Teams": {
-        "New York Islanders": {
+        "New Jersey Devils": {
           "opponents": {
-            "New York Islanders": [],
-            "New Jersey Devils": [
-              ":"
-            ],
+            "New Jersey Devils": [],
             "Columbus Blue Jackets": [
               ":"
             ],
@@ -397,20 +409,211 @@
             "Tampa Bay Lightning": [
               ":"
             ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
+              ":"
+            ],
+            "New York Rangers": [
+              "3:2"
+            ],
+            "Philadelphia Flyers": [
+              ":"
+            ],
+            " Florida Panthers": [
+              ":"
+            ],
+            "Washington Capitals": [
+              "3:2 pr."
+            ],
+            "Montreal Canadiens": [
+              "4:1"
+            ],
+            "Boston Bruins": [
+              "9:5"
+            ],
+            "Ottawa Senators": [
+              "7:4"
+            ],
+            "Buffalo Sabres": [
+              ":"
+            ]
+          },
+          "points": 10,
+          "score": "26:14",
+          "rank": 1
+        },
+        "Columbus Blue Jackets": {
+          "opponents": {
+            "New Jersey Devils": [
+              ":"
+            ],
+            "Columbus Blue Jackets": [],
+            "Carolina Hurricanes": [
+              ":"
+            ],
+            "Tampa Bay Lightning": [
+              "5:4"
+            ],
+            "New York Islanders": [
+              "9:3"
+            ],
+            "Toronto Maple Leafs": [
+              ":"
+            ],
+            "New York Rangers": [
+              ":"
+            ],
+            "Philadelphia Flyers": [
+              "4:5 pr."
+            ],
+            " Florida Panthers": [
+              "4:3 np."
+            ],
+            "Washington Capitals": [
+              ":"
+            ],
+            "Montreal Canadiens": [
+              ":"
+            ],
+            "Boston Bruins": [
+              ":"
+            ],
+            "Ottawa Senators": [
+              ":"
+            ],
+            "Buffalo Sabres": [
+              "10:0"
+            ]
+          },
+          "points": 9,
+          "score": "32:15",
+          "rank": 2
+        },
+        "Carolina Hurricanes": {
+          "opponents": {
+            "New Jersey Devils": [
+              ":"
+            ],
+            "Columbus Blue Jackets": [
+              ":"
+            ],
+            "Carolina Hurricanes": [],
+            "Tampa Bay Lightning": [
+              ":"
+            ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
+              "4:3"
+            ],
+            "New York Rangers": [
+              "3:1"
+            ],
+            "Philadelphia Flyers": [
+              ":"
+            ],
+            " Florida Panthers": [
+              ":"
+            ],
+            "Washington Capitals": [
+              "16:0"
+            ],
+            "Montreal Canadiens": [
+              ":"
+            ],
+            "Boston Bruins": [
+              ":"
+            ],
+            "Ottawa Senators": [
+              "12:0"
+            ],
+            "Buffalo Sabres": [
+              ":"
+            ]
+          },
+          "points": 8,
+          "score": "35:4",
+          "rank": 3
+        },
+        "Tampa Bay Lightning": {
+          "opponents": {
+            "New Jersey Devils": [
+              ":"
+            ],
+            "Columbus Blue Jackets": [
+              "4:5"
+            ],
+            "Carolina Hurricanes": [
+              ":"
+            ],
+            "Tampa Bay Lightning": [],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
+              "4:2"
+            ],
+            "New York Rangers": [
+              ":"
+            ],
+            "Philadelphia Flyers": [
+              ":"
+            ],
+            " Florida Panthers": [
+              ":"
+            ],
+            "Washington Capitals": [
+              "4:2"
+            ],
+            "Montreal Canadiens": [
+              "7:0"
+            ],
+            "Boston Bruins": [
+              ":"
+            ],
+            "Ottawa Senators": [
+              "9:1"
+            ],
+            "Buffalo Sabres": [
+              ":"
+            ]
+          },
+          "points": 8,
+          "score": "28:10",
+          "rank": 4
+        },
+        "New York Islanders": {
+          "opponents": {
+            "New Jersey Devils": [
+              ":"
+            ],
+            "Columbus Blue Jackets": [
+              "3:9"
+            ],
+            "Carolina Hurricanes": [
+              ":"
+            ],
+            "Tampa Bay Lightning": [
+              ":"
+            ],
+            "New York Islanders": [],
+            "Toronto Maple Leafs": [
+              ":"
+            ],
             "New York Rangers": [
               ":"
             ],
             "Philadelphia Flyers": [
               "4:2"
             ],
-            "Toronto Maple Leafs": [
-              ":"
+            " Florida Panthers": [
+              "6:2"
             ],
             "Washington Capitals": [
               ":"
-            ],
-            " Florida Panthers": [
-              "6:2"
             ],
             "Montreal Canadiens": [
               ":"
@@ -426,202 +629,58 @@
             ]
           },
           "points": 8,
-          "score": "25:6",
-          "rank": 1
-        },
-        "New Jersey Devils": {
-          "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
-            "New Jersey Devils": [],
-            "Columbus Blue Jackets": [
-              ":"
-            ],
-            "Carolina Hurricanes": [
-              ":"
-            ],
-            "Tampa Bay Lightning": [
-              ":"
-            ],
-            "New York Rangers": [
-              "3:2"
-            ],
-            "Philadelphia Flyers": [
-              ":"
-            ],
-            "Toronto Maple Leafs": [
-              ":"
-            ],
-            "Washington Capitals": [
-              "3:2 pr."
-            ],
-            " Florida Panthers": [
-              ":"
-            ],
-            "Montreal Canadiens": [
-              "4:1"
-            ],
-            "Boston Bruins": [
-              ":"
-            ],
-            "Ottawa Senators": [
-              "7:4"
-            ],
-            "Buffalo Sabres": [
-              ":"
-            ]
-          },
-          "points": 8,
-          "score": "17:9",
-          "rank": 2
-        },
-        "Columbus Blue Jackets": {
-          "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
-            "New Jersey Devils": [
-              ":"
-            ],
-            "Columbus Blue Jackets": [],
-            "Carolina Hurricanes": [
-              ":"
-            ],
-            "Tampa Bay Lightning": [
-              "5:4"
-            ],
-            "New York Rangers": [
-              ":"
-            ],
-            "Philadelphia Flyers": [
-              "4:5 pr."
-            ],
-            "Toronto Maple Leafs": [
-              ":"
-            ],
-            "Washington Capitals": [
-              ":"
-            ],
-            " Florida Panthers": [
-              "4:3 np."
-            ],
-            "Montreal Canadiens": [
-              ":"
-            ],
-            "Boston Bruins": [
-              ":"
-            ],
-            "Ottawa Senators": [
-              ":"
-            ],
-            "Buffalo Sabres": [
-              "10:0"
-            ]
-          },
-          "points": 7,
-          "score": "23:12",
-          "rank": 3
-        },
-        "Carolina Hurricanes": {
-          "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
-            "New Jersey Devils": [
-              ":"
-            ],
-            "Columbus Blue Jackets": [
-              ":"
-            ],
-            "Carolina Hurricanes": [],
-            "Tampa Bay Lightning": [
-              ":"
-            ],
-            "New York Rangers": [
-              ":"
-            ],
-            "Philadelphia Flyers": [
-              ":"
-            ],
-            "Toronto Maple Leafs": [
-              "4:3"
-            ],
-            "Washington Capitals": [
-              "16:0"
-            ],
-            " Florida Panthers": [
-              ":"
-            ],
-            "Montreal Canadiens": [
-              ":"
-            ],
-            "Boston Bruins": [
-              ":"
-            ],
-            "Ottawa Senators": [
-              "12:0"
-            ],
-            "Buffalo Sabres": [
-              ":"
-            ]
-          },
-          "points": 6,
-          "score": "32:3",
-          "rank": 4
-        },
-        "Tampa Bay Lightning": {
-          "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
-            "New Jersey Devils": [
-              ":"
-            ],
-            "Columbus Blue Jackets": [
-              "4:5"
-            ],
-            "Carolina Hurricanes": [
-              ":"
-            ],
-            "Tampa Bay Lightning": [],
-            "New York Rangers": [
-              ":"
-            ],
-            "Philadelphia Flyers": [
-              ":"
-            ],
-            "Toronto Maple Leafs": [
-              "4:2"
-            ],
-            "Washington Capitals": [
-              ":"
-            ],
-            " Florida Panthers": [
-              ":"
-            ],
-            "Montreal Canadiens": [
-              "7:0"
-            ],
-            "Boston Bruins": [
-              ":"
-            ],
-            "Ottawa Senators": [
-              "9:1"
-            ],
-            "Buffalo Sabres": [
-              ":"
-            ]
-          },
-          "points": 6,
-          "score": "24:8",
+          "score": "28:15",
           "rank": 5
+        },
+        "Toronto Maple Leafs": {
+          "opponents": {
+            "New Jersey Devils": [
+              ":"
+            ],
+            "Columbus Blue Jackets": [
+              ":"
+            ],
+            "Carolina Hurricanes": [
+              "3:4"
+            ],
+            "Tampa Bay Lightning": [
+              "2:4"
+            ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [],
+            "New York Rangers": [
+              ":"
+            ],
+            "Philadelphia Flyers": [
+              "6:2"
+            ],
+            " Florida Panthers": [
+              "6:2"
+            ],
+            "Washington Capitals": [
+              ":"
+            ],
+            "Montreal Canadiens": [
+              ":"
+            ],
+            "Boston Bruins": [
+              ":"
+            ],
+            "Ottawa Senators": [
+              ":"
+            ],
+            "Buffalo Sabres": [
+              "11:0"
+            ]
+          },
+          "points": 6,
+          "score": "28:12",
+          "rank": 6
         },
         "New York Rangers": {
           "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
             "New Jersey Devils": [
               "2:3"
             ],
@@ -629,23 +688,26 @@
               ":"
             ],
             "Carolina Hurricanes": [
-              ":"
+              "1:3"
             ],
             "Tampa Bay Lightning": [
+              ":"
+            ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
               ":"
             ],
             "New York Rangers": [],
             "Philadelphia Flyers": [
               ":"
             ],
-            "Toronto Maple Leafs": [
+            " Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
               "7:3"
-            ],
-            " Florida Panthers": [
-              ":"
             ],
             "Montreal Canadiens": [
               ":"
@@ -661,14 +723,11 @@
             ]
           },
           "points": 6,
-          "score": "22:8",
-          "rank": 6
+          "score": "23:11",
+          "rank": 7
         },
         "Philadelphia Flyers": {
           "opponents": {
-            "New York Islanders": [
-              "2:4"
-            ],
             "New Jersey Devils": [
               ":"
             ],
@@ -681,17 +740,20 @@
             "Tampa Bay Lightning": [
               ":"
             ],
+            "New York Islanders": [
+              "2:4"
+            ],
+            "Toronto Maple Leafs": [
+              "2:6"
+            ],
             "New York Rangers": [
               ":"
             ],
             "Philadelphia Flyers": [],
-            "Toronto Maple Leafs": [
+            " Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
-              ":"
-            ],
-            " Florida Panthers": [
               ":"
             ],
             "Montreal Canadiens": [
@@ -708,25 +770,28 @@
             ]
           },
           "points": 4,
-          "score": "19:8",
-          "rank": 7
+          "score": "21:14",
+          "rank": 8
         },
-        "Toronto Maple Leafs": {
+        " Florida Panthers": {
           "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
             "New Jersey Devils": [
               ":"
             ],
             "Columbus Blue Jackets": [
-              ":"
+              "3:4 np."
             ],
             "Carolina Hurricanes": [
-              "3:4"
+              ":"
             ],
             "Tampa Bay Lightning": [
-              "2:4"
+              ":"
+            ],
+            "New York Islanders": [
+              "2:6"
+            ],
+            "Toronto Maple Leafs": [
+              "2:6"
             ],
             "New York Rangers": [
               ":"
@@ -734,12 +799,9 @@
             "Philadelphia Flyers": [
               ":"
             ],
-            "Toronto Maple Leafs": [],
+            " Florida Panthers": [],
             "Washington Capitals": [
               ":"
-            ],
-            " Florida Panthers": [
-              "6:2"
             ],
             "Montreal Canadiens": [
               ":"
@@ -748,21 +810,18 @@
               ":"
             ],
             "Ottawa Senators": [
-              ":"
+              "12:3"
             ],
             "Buffalo Sabres": [
-              "11:0"
+              ":"
             ]
           },
-          "points": 4,
-          "score": "22:10",
-          "rank": 8
+          "points": 3,
+          "score": "19:19",
+          "rank": 9
         },
         "Washington Capitals": {
           "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
             "New Jersey Devils": [
               "2:3 pr."
             ],
@@ -773,6 +832,12 @@
               "0:16"
             ],
             "Tampa Bay Lightning": [
+              "2:4"
+            ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
               ":"
             ],
             "New York Rangers": [
@@ -781,13 +846,10 @@
             "Philadelphia Flyers": [
               ":"
             ],
-            "Toronto Maple Leafs": [
-              ":"
-            ],
-            "Washington Capitals": [],
             " Florida Panthers": [
               ":"
             ],
+            "Washington Capitals": [],
             "Montreal Canadiens": [
               ":"
             ],
@@ -802,61 +864,11 @@
             ]
           },
           "points": 3,
-          "score": "16:29",
-          "rank": 9
-        },
-        " Florida Panthers": {
-          "opponents": {
-            "New York Islanders": [
-              "2:6"
-            ],
-            "New Jersey Devils": [
-              ":"
-            ],
-            "Columbus Blue Jackets": [
-              "3:4 np."
-            ],
-            "Carolina Hurricanes": [
-              ":"
-            ],
-            "Tampa Bay Lightning": [
-              ":"
-            ],
-            "New York Rangers": [
-              ":"
-            ],
-            "Philadelphia Flyers": [
-              ":"
-            ],
-            "Toronto Maple Leafs": [
-              "2:6"
-            ],
-            "Washington Capitals": [
-              ":"
-            ],
-            " Florida Panthers": [],
-            "Montreal Canadiens": [
-              ":"
-            ],
-            "Boston Bruins": [
-              ":"
-            ],
-            "Ottawa Senators": [
-              ":"
-            ],
-            "Buffalo Sabres": [
-              ":"
-            ]
-          },
-          "points": 1,
-          "score": "7:16",
+          "score": "18:33",
           "rank": 10
         },
         "Montreal Canadiens": {
           "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
             "New Jersey Devils": [
               "1:4"
             ],
@@ -869,19 +881,22 @@
             "Tampa Bay Lightning": [
               "0:7"
             ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
+              ":"
+            ],
             "New York Rangers": [
               ":"
             ],
             "Philadelphia Flyers": [
               ":"
             ],
-            "Toronto Maple Leafs": [
+            " Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
-              ":"
-            ],
-            " Florida Panthers": [
               ":"
             ],
             "Montreal Canadiens": [],
@@ -892,20 +907,17 @@
               ":"
             ],
             "Buffalo Sabres": [
-              ":"
+              "11:0"
             ]
           },
-          "points": 0,
-          "score": "1:11",
+          "points": 2,
+          "score": "12:11",
           "rank": 11
         },
         "Boston Bruins": {
           "opponents": {
-            "New York Islanders": [
-              "2:9"
-            ],
             "New Jersey Devils": [
-              ":"
+              "5:9"
             ],
             "Columbus Blue Jackets": [
               ":"
@@ -916,20 +928,23 @@
             "Tampa Bay Lightning": [
               ":"
             ],
+            "New York Islanders": [
+              "2:9"
+            ],
+            "Toronto Maple Leafs": [
+              ":"
+            ],
             "New York Rangers": [
               "1:5"
             ],
             "Philadelphia Flyers": [
               ":"
             ],
-            "Toronto Maple Leafs": [
+            " Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
               "3:11"
-            ],
-            " Florida Panthers": [
-              ":"
             ],
             "Montreal Canadiens": [
               ":"
@@ -943,14 +958,11 @@
             ]
           },
           "points": 0,
-          "score": "6:25",
+          "score": "11:34",
           "rank": 12
         },
         "Ottawa Senators": {
           "opponents": {
-            "New York Islanders": [
-              ":"
-            ],
             "New Jersey Devils": [
               "4:7"
             ],
@@ -963,19 +975,22 @@
             "Tampa Bay Lightning": [
               "1:9"
             ],
+            "New York Islanders": [
+              ":"
+            ],
+            "Toronto Maple Leafs": [
+              ":"
+            ],
             "New York Rangers": [
               "1:8"
             ],
             "Philadelphia Flyers": [
               ":"
             ],
-            "Toronto Maple Leafs": [
-              ":"
+            " Florida Panthers": [
+              "3:12"
             ],
             "Washington Capitals": [
-              ":"
-            ],
-            " Florida Panthers": [
               ":"
             ],
             "Montreal Canadiens": [
@@ -990,14 +1005,11 @@
             ]
           },
           "points": 0,
-          "score": "6:36",
+          "score": "9:48",
           "rank": 13
         },
         "Buffalo Sabres": {
           "opponents": {
-            "New York Islanders": [
-              "0:6"
-            ],
             "New Jersey Devils": [
               ":"
             ],
@@ -1010,23 +1022,26 @@
             "Tampa Bay Lightning": [
               ":"
             ],
+            "New York Islanders": [
+              "0:6"
+            ],
+            "Toronto Maple Leafs": [
+              "0:11"
+            ],
             "New York Rangers": [
               ":"
             ],
             "Philadelphia Flyers": [
               "0:12"
             ],
-            "Toronto Maple Leafs": [
-              "0:11"
+            " Florida Panthers": [
+              ":"
             ],
             "Washington Capitals": [
               ":"
             ],
-            " Florida Panthers": [
-              ":"
-            ],
             "Montreal Canadiens": [
-              ":"
+              "0:11"
             ],
             "Boston Bruins": [
               ":"
@@ -1037,7 +1052,7 @@
             "Buffalo Sabres": []
           },
           "points": 0,
-          "score": "0:39",
+          "score": "0:50",
           "rank": 14
         }
       }
@@ -1673,49 +1688,169 @@
         "New Jersey Devils",
         "Boston Bruins"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          9,
+          5
+        ],
+        "scorers": [
+          {
+            "Filip Karlsson": 2,
+            "Gustavo Montes": 2,
+            "Klaus Claes": 1,
+            "Mario Cisneros": 1,
+            "Iván Rodríguez": 1
+          },
+          {
+            "Horác Dobák": 1,
+            "Filip Havlice": 2,
+            " Adam Cibula": 2
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Columbus Blue Jackets",
         "New York Islanders"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          9,
+          3
+        ],
+        "scorers": [
+          {
+            "Świętobor Trochimiuk": 2,
+            "Kijuro Komatsu": 2,
+            "Nathan Vansteenkiste ": 1,
+            "Roko Kopić": 3,
+            "Víctor Madariaga": 1
+          },
+          {
+            "Roman Kuvakin": 2,
+            " Dominik Jíra": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "New York Rangers",
         "Carolina Hurricanes"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          1,
+          3
+        ],
+        "scorers": [
+          {
+            "Andrés Santos": 1
+          },
+          {
+            "Fynn Blauschek": 1,
+            "Andrej Pavlíčka": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Toronto Maple Leafs",
         "Philadelphia Flyers"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          6,
+          2
+        ],
+        "scorers": [
+          {
+            "Václav Polák": 1,
+            "Edgar Arganaraz": 2,
+            " David Svoboda": 1
+          },
+          {
+            "Patrice Ryan": 1,
+            "Mathis Wright": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Washington Capitals",
         "Tampa Bay Lightning"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          2,
+          4
+        ],
+        "scorers": [
+          {
+            "Hermanis Makarovs": 1,
+            "Vlastimil Vargovčák": 1
+          },
+          {
+            "Michal Studnička": 1,
+            "Tomáš Konečný": 1,
+            "Karel John": 1,
+            " Adrián Izar": 1
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Montreal Canadiens",
         "Buffalo Sabres"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          11,
+          0
+        ],
+        "scorers": [
+          {
+            "Martin Zahradník": 1,
+            "Enrique Sanabria": 1,
+            "Ādams Vedējs": 2,
+            "Alexandre Gall": 7
+          },
+          {}
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
         "Ottawa Senators",
         " Florida Panthers"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          3,
+          12
+        ],
+        "scorers": [
+          {
+            "John Bathurst": 1,
+            "Dylan Ralph": 1
+          },
+          {
+            "Symeon Żuchowski": 2,
+            "Adam Bedford": 4
+          }
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
