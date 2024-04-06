@@ -13,8 +13,9 @@ fetch('json/west.json')
                   <td>${team}</td>
                   <td>${teamData.matchesCount}</td>
                   <td>${teamData.winsCount}</td>
-                  <td>${teamData.lossesCount}</td>
-                  <td>${teamData.lossesExtraCount}</td>        
+                  <td>${teamData.winsExtraCount}</td>
+                  <td>${teamData.lossesExtraCount}</td>  
+                  <td>${teamData.lossesCount}</td>     
                   <td>${teamData.goalsFor} : ${teamData.goalsAgainst}</td>
                   <td>${teamData.points}</td>
                   `;

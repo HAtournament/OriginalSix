@@ -2,7 +2,7 @@
   "schedule": {
     "scheduleType": "roundRobin/Kirkman",
     "groups": {
-      "Teams": "Washington Capitals, Boston Bruins, Philadelphia Flyers, Buffalo Sabres, Ottawa Senators, New York Rangers, New York Islanders,  Florida Panthers, Montreal Canadiens, New Jersey Devils, Columbus Blue Jackets, Tampa Bay Lightning, Toronto Maple Leafs, Carolina Hurricanes"
+      "Teams": "Washington Capitals, Boston Bruins, Philadelphia Flyers, Buffalo Sabres, Ottawa Senators, New York Rangers, New York Islanders, Florida Panthers, Montreal Canadiens, New Jersey Devils, Columbus Blue Jackets, Tampa Bay Lightning, Toronto Maple Leafs, Carolina Hurricanes"
     }
   },
   "scheduleStats": {
@@ -163,7 +163,7 @@
       "Dziam\u0027jan Zmitrenia": 2,
       "Philippe Meagher": 0
     },
-    " Florida Panthers": {
+    "Florida Panthers": {
       "Jason Pratt": 4,
       "Adam Bedford": 4,
       "Symeon Żuchowski": 2,
@@ -323,7 +323,7 @@
           "goalsAgainst": 12,
           "points": 4
         },
-        " Florida Panthers": {
+        "Florida Panthers": {
           "rank": 10,
           "matchesCount": 5,
           "winsCount": 1,
@@ -424,7 +424,7 @@
             "Montreal Canadiens": [
               "4:1"
             ],
-            " Florida Panthers": [
+            "Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
@@ -471,7 +471,7 @@
             "Montreal Canadiens": [
               ":"
             ],
-            " Florida Panthers": [
+            "Florida Panthers": [
               "4:3 np."
             ],
             "Washington Capitals": [
@@ -518,7 +518,7 @@
             "Montreal Canadiens": [
               ":"
             ],
-            " Florida Panthers": [
+            "Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
@@ -565,7 +565,7 @@
             "Montreal Canadiens": [
               "7:0"
             ],
-            " Florida Panthers": [
+            "Florida Panthers": [
               ":"
             ],
             "Washington Capitals": [
@@ -612,7 +612,7 @@
             "Montreal Canadiens": [
               ":"
             ],
-            " Florida Panthers": [
+            "Florida Panthers": [
               "6:2"
             ],
             "Washington Capitals": [
@@ -659,7 +659,7 @@
             "Montreal Canadiens": [
               ":"
             ],
-            " Florida Panthers": [
+            "Florida Panthers": [
               "6:2"
             ],
             "Washington Capitals": [
