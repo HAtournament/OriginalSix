@@ -23,7 +23,7 @@ function fetchAndPopulate(jsonUrl, tableBodyId) {
                 if (data.teamPlayers.hasOwnProperty(team)) {
                     const players = data.teamPlayers[team];
                     for (const player in players) {
-                        if (players.hasOwnProperty(player) && players[player] > 1) {
+                        if (players.hasOwnProperty(player) && players[player] > 2) {
                             allPlayers.push([player, players[player], team]);
                         }
                     }
