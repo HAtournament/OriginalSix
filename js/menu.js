@@ -38,9 +38,7 @@ var navbarHTML = `
       <li>
         <a href="history.html">History</a>
       </li>
-      <li>
-      <a href="test.html">test</a>
-    </li>
+
     </ul>
   </nav>
 </div>
