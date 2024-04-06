@@ -112,8 +112,8 @@
     "Washington Capitals": {
       "Zoran Grozdanović": 6,
       "Vojtěch Skalický": 4,
-      "Eli Argov": 2,
       "Hermanis Makarovs": 2,
+      "Eli Argov": 1,
       "Naum Ergolskiy": 1,
       "Alexandre Kaiser": 1,
       "David Sierra": 1,
@@ -141,16 +141,16 @@
     "New Jersey Devils": {
       "Filip Karlsson": 5,
       "Gustavo Montes": 5,
-      "Klaus Claes": 3,
+      "Klaus Claes": 4,
       "Mario Cisneros": 3,
-      "Yanaki Botev": 2,
+      "Iván Rodríguez": 3,
       "Elar Torn": 2,
-      "Alfréd Kasanický": 1,
       "Vince Rubin": 1,
       "Eduardo Arellanos": 1,
-      "Iván Rodríguez": 1,
+      "Alfréd Kasanický": 0,
       "Grujo Zhivkov": 0,
       "Valtteri Maurinen": 0,
+      "Yanaki Botev": 0,
       "Zlatko Žarković": 0,
       "Jozef Mlej": 0
     },
@@ -201,8 +201,8 @@
           "rank": 1,
           "matchesCount": 5,
           "winsCount": 5,
-          "winsNormalCount": 4,
-          "winsExtraCount": 1,
+          "winsNormalCount": 5,
+          "winsExtraCount": 0,
           "drawsCount": 0,
           "lossesCount": 0,
           "lossesNormalCount": 0,
@@ -345,11 +345,11 @@
           "winsExtraCount": 0,
           "drawsCount": 0,
           "lossesCount": 4,
-          "lossesNormalCount": 3,
-          "lossesExtraCount": 1,
+          "lossesNormalCount": 4,
+          "lossesExtraCount": 0,
           "goalsFor": 18,
           "goalsAgainst": 33,
-          "points": 3
+          "points": 2
         },
         "Boston Bruins": {
           "rank": 12,
@@ -428,7 +428,7 @@
               ":"
             ],
             "Washington Capitals": [
-              "3:2 pr."
+              "3:2"
             ],
             "Boston Bruins": [
               "9:5"
@@ -870,7 +870,7 @@
         "Washington Capitals": {
           "opponents": {
             "New Jersey Devils": [
-              "2:3 pr."
+              "2:3"
             ],
             "Columbus Blue Jackets": [
               ":"
@@ -910,7 +910,7 @@
               ":"
             ]
           },
-          "points": 3,
+          "points": 2,
           "score": "18:33",
           "rank": 11
         },
@@ -1429,14 +1429,14 @@
         ],
         "scorers": [
           {
-            "Eli Argov": 2
+            "Eli Argov": 1
           },
           {
-            "Alfréd Kasanický": 1,
-            "Yanaki Botev": 2
+            "Klaus Claes": 1,
+            "Iván Rodríguez": 2
           }
         ],
-        "type": "pr."
+        "type": ""
       }
     },
     {
