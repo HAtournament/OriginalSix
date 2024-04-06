@@ -12,10 +12,10 @@ fetch('json/east.json')
                   <td>${teamData.rank}.</td>
                   <td>${team}</td>
                   <td>${teamData.matchesCount}</td>
-                  <td>${teamData.winsCount}</td>
+                  <td>${teamData.winsNormalCount}</td>
                   <td>${teamData.winsExtraCount}</td>
                   <td>${teamData.lossesExtraCount}</td>  
-                  <td>${teamData.lossesCount}</td>     
+                  <td>${teamData.lossesNormalCount}</td> 
                   <td>${teamData.goalsFor} : ${teamData.goalsAgainst}</td>
                   <td>${teamData.points}</td>
                   `;
