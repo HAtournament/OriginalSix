@@ -11,8 +11,8 @@
     "fieldsCount": 7,
     "playersCount": 120,
     "matchesCount": 91,
-    "goalsCount": 497,
-    "averageGoalsInMatch": 5.461538461538462
+    "goalsCount": 502,
+    "averageGoalsInMatch": 5.516483516483516
   },
   "winners": {
     "teams": {
@@ -137,6 +137,17 @@
       "Alexander Chihada ": 1,
       "Zoran Cehlár": 0
     },
+    "Vegas Golden Knights": {
+      "Martyn Hills": 12,
+      "Josef Heger": 8,
+      "Jaroslav Poláček": 6,
+      "Erkki Perttuli": 6,
+      "Christopher Bigun": 4,
+      "Naganori Iemochi": 2,
+      "Béla Krupička": 1,
+      "Ysidro Menéndez": 1,
+      "Dennis Marklund ": 0
+    },
     "Anaheim Ducks": {
       "Antonín Zeman": 11,
       "Martin Minár": 9,
@@ -147,17 +158,6 @@
       "Marian Mais": 2,
       "Diego Bravo": 0,
       "Nathan Fletcher": 0
-    },
-    "Vegas Golden Knights": {
-      "Martyn Hills": 9,
-      "Josef Heger": 7,
-      "Jaroslav Poláček": 6,
-      "Erkki Perttuli": 5,
-      "Christopher Bigun": 4,
-      "Naganori Iemochi": 2,
-      "Béla Krupička": 1,
-      "Ysidro Menéndez": 1,
-      "Dennis Marklund ": 0
     },
     "Arizona Coyotes": {
       "Kristián Hostinský": 4,
@@ -247,17 +247,17 @@
         },
         "Vegas Golden Knights": {
           "rank": 4,
-          "matchesCount": 8,
-          "winsCount": 6,
-          "winsNormalCount": 5,
+          "matchesCount": 9,
+          "winsCount": 7,
+          "winsNormalCount": 6,
           "winsExtraCount": 1,
           "drawsCount": 0,
           "lossesCount": 2,
           "lossesNormalCount": 2,
           "lossesExtraCount": 0,
-          "goalsFor": 36,
+          "goalsFor": 41,
           "goalsAgainst": 22,
-          "points": 12
+          "points": 14
         },
         "Chicago Blackhawks": {
           "rank": 5,
@@ -331,16 +331,16 @@
         },
         "Arizona Coyotes": {
           "rank": 10,
-          "matchesCount": 8,
+          "matchesCount": 9,
           "winsCount": 3,
           "winsNormalCount": 2,
           "winsExtraCount": 1,
           "drawsCount": 0,
-          "lossesCount": 5,
-          "lossesNormalCount": 5,
+          "lossesCount": 6,
+          "lossesNormalCount": 6,
           "lossesExtraCount": 0,
           "goalsFor": 18,
-          "goalsAgainst": 30,
+          "goalsAgainst": 35,
           "points": 6
         },
         "St. Louis Blues": {
@@ -572,7 +572,7 @@
               ":"
             ],
             "Arizona Coyotes": [
-              ":"
+              "5:0"
             ],
             "St. Louis Blues": [
               "5:2"
@@ -587,8 +587,8 @@
               ":"
             ]
           },
-          "points": 12,
-          "score": "36:22",
+          "points": 14,
+          "score": "41:22",
           "rank": 4
         },
         "Chicago Blackhawks": {
@@ -838,7 +838,7 @@
               "2:5"
             ],
             "Vegas Golden Knights": [
-              ":"
+              "0:5"
             ],
             "Chicago Blackhawks": [
               ":"
@@ -870,7 +870,7 @@
             ]
           },
           "points": 6,
-          "score": "18:30",
+          "score": "18:35",
           "rank": 10
         },
         "St. Louis Blues": {
@@ -1070,7 +1070,21 @@
         "Vegas Golden Knights",
         "Arizona Coyotes"
       ],
-      "result": {}
+      "result": {
+        "goals": [
+          5,
+          0
+        ],
+        "scorers": [
+          {
+            "Martyn Hills": 3,
+            "Josef Heger": 1,
+            "Erkki Perttuli": 1
+          },
+          {}
+        ],
+        "type": ""
+      }
     },
     {
       "teams": [
