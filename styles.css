@@ -122,14 +122,19 @@ article {
 }
 
 .playoff-table table {
-  width: 500px;
+  width: auto;
   table-layout: fixed; /* Sloupce budou mít stejnou šířku */
 }
-
-.playoff-table table td:nth-child(2) {
-  width: 20px !important; /* Šířka druhého sloupce */
-  text-align: center;
+.playoff-table table td:nth-child(2),
+.playoff-table table td:nth-child(3){
+  width: 15px;
 }
+
+.playoff-table table td:nth-child(4){
+  width: 30px;
+}
+
+
 
 
 /* Outer navigation wrapper */
