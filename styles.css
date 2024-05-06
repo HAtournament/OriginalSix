@@ -119,6 +119,7 @@ article {
 
 .playoff-table > *{
  margin: 30px;
+ display: inline;
 }
 
 .playoff-table table {
