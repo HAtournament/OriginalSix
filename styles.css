@@ -131,7 +131,8 @@ article {
   text-align: center;
 }
 
-.playoff-table table td:nth-child(4){
+.playoff-table table td:nth-child(4),
+.playoff-table table td:nth-child(5){
   width: 30px;
   font-weight: bold;
   text-align: center;
